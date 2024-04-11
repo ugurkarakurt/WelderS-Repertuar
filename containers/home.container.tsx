@@ -59,7 +59,7 @@ const HomeContainer = () => {
     <div className={styles.homeContainer}>
       <h2>Şarkı Listesi</h2>
       <input
-        type="text"
+        type="search"
         placeholder="Şarka Adıyla Ara"
         value={searchTerm}
         onChange={handleSearch}

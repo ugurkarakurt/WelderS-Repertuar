@@ -588,6 +588,66 @@ export const songs = [
   },
   {
     "id": 14,
+    "artist": "Duman",
+    "title": "Bu Akşam",
+    "chordsHTML": (<pre data-key="Bm" class="chords" id="key"><span>İntro:</span>
+      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>   <span class="c">A</span></span>
+      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">G</span>   <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">Bm</span>    </span>
+      <span></span>
+      <span><span class="c">Bm</span>           <span class="c">G</span>            <span class="c">A</span>        <span class="c">Em</span></span>
+      <span>Kendime geldim geleli dostlar</span>
+      <span><span class="c">Bm</span>            <span class="c">G</span>             <span class="c">A</span></span>
+      <span>Olamam kimseye düşman</span>
+      <span><span class="c">Bm</span>                 <span class="c">G</span>     <span class="c">A</span>            <span class="c">Em</span></span>
+      <span>Hiç şüphem yok kefenim sağlam</span>
+      <span><span class="c">G</span>           <span class="c">A</span>    <span class="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span></span>
+      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>   <span class="c">A</span></span>
+      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">G</span>   <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">Bm</span>    </span>
+      <span></span>
+      <span><span class="c">Bm</span>        <span class="c">G</span>            <span class="c">A</span>          <span class="c">Em</span> </span>
+      <span>Sesleri duydum duyalı dostlar</span>
+      <span><span class="c">Bm</span>   <span class="c">G</span>          <span class="c">A</span></span>
+      <span>Yola çıktım yeni baştan</span>
+      <span><span class="c">Bm</span>        <span class="c">G</span>      <span class="c">A</span>             <span class="c">Em</span></span>
+      <span>Acelem yok hedefim sağlam     </span>
+      <span><span class="c">G</span>           <span class="c">A</span>     <span class="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span class="c">G</span>           <span class="c">A</span>    <span class="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span class="c">G</span>             <span class="c">A</span></span>
+      <span>İçerim ben</span>
+      <span></span>
+      <span>                     <span class="c">Bm</span>    <span class="c">G</span>  <span class="c">Em</span></span>
+      <span>Ben burda bu akşam   </span>
+      <span><span class="c">F#</span>               <span class="c">Bm</span>    <span class="c">G</span>  <span class="c">Em</span></span>
+      <span>Ben burda bu akşam</span>
+      <span><span class="c">F#</span>                 <span class="c">Bm</span>    <span class="c">G</span>  <span class="c">Em</span></span>
+      <span>Ben burda bu akşam</span>
+      <span><span class="c">F#</span>               <span class="c">G</span>        <span class="c">A</span>    </span>
+      <span>Ben burda bu akşam, içerim ben    </span>
+      <span></span>
+      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>   <span class="c">A</span></span>
+      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">G</span>   <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">Bm</span>    </span>
+      <span></span>
+      <span><span class="c">Bm</span>       <span class="c">G</span>             <span class="c">A</span>      <span class="c">Em</span></span>
+      <span>Sizleri gördüm göreli dostlar</span>
+      <span><span class="c">Bm</span>          <span class="c">G</span>           <span class="c">A</span></span>
+      <span>Hemen hergün bana bayram</span>
+      <span><span class="c">Bm</span>         <span class="c">G</span>     <span class="c">A</span>             <span class="c">Em</span></span>
+      <span>Yarınım yok sevenim sağlam</span>
+      <span><span class="c">G</span>           <span class="c">A</span>     <span class="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span class="c">G</span>           <span class="c">A</span>    <span class="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span class="c">G</span>             <span class="c">A</span></span>
+      <span>İçerim ben</span>
+      <span></span>
+      <span>N</span></pre>)
+  },
+  {
+    "id": 15,
     "artist": "Mor ve Ötesi",
     "title": "Deli",
     "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span>             <span className="c">Em</span>                <span className="c">F#</span> </span>
@@ -627,7 +687,7 @@ export const songs = [
       <span>Bir ben deli bir ben deli</span></pre>)
   },
   {
-    "id": 15,
+    "id": 16,
     "artist": "Mor ve Ötesi",
     "title": "Cambaz",
     "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>             <span className="c">Eb</span>                      <span className="c">D</span>                 <span className="c">Db</span>                      <span className="c">C</span>  <span className="c">G#</span></span>
@@ -645,7 +705,7 @@ export const songs = [
       <span>İki gözüm kadar eminim sen yoksun</span></pre>)
   },
   {
-    "id": 16,
+    "id": 17,
     "artist": "Haluk Levent",
     "title": "Dert Olur",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">A</span>                                       <span className="c">Bb</span></span>
@@ -683,7 +743,7 @@ export const songs = [
       <span>Bir bakarsın düşlerin gerçek olur</span></pre>)
   },
   {
-    "id": 17,
+    "id": 18,
     "artist": "Yüksek Sadakat",
     "title": "Haydi Gel İçelim",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>                         <span className="c">A</span>         </span>
@@ -721,7 +781,7 @@ export const songs = [
       <span>Yerlere düşelim</span></pre>)
   },
   {
-    "id": 18,
+    "id": 19,
     "artist": "Piiz",
     "title": "Vazgeç Gönül",
     "chordsHTML": (<pre data-key="F#m" className="chords" id="key"><span>Intro:</span>
@@ -763,7 +823,7 @@ export const songs = [
       <span>Bir yanıp bir söndün</span></pre>)
   },
   {
-    "id": 19,
+    "id": 20,
     "artist": "Yavuz Çetin",
     "title": "Yaşamak İstemem",
     "chordsHTML": (<pre data-key="E" className="chords " id="key"><span><span className="c">D</span>                        <span className="c">A</span></span>
@@ -838,7 +898,7 @@ export const songs = [
       <span>Yaşamak istemem, istemem, istemez (istemez)</span></pre>)
   },
   {
-    "id": 20,
+    "id": 21,
     "artist": "Kurban",
     "title": "Sarı Çizmeli Mehmet Ağa",
     "chordsHTML": (
@@ -880,7 +940,7 @@ export const songs = [
     )
   },
   {
-    "id": 21,
+    "id": 22,
     "artist": "MFÖ",
     "title": "Ele Güne Karşı",
     "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span></span>
@@ -918,7 +978,7 @@ export const songs = [
       <span>Seni hiç aldatmadım aldatmayı hiç sevmem</span></pre>)
   },
   {
-    "id": 22,
+    "id": 23,
     "artist": "Metallica",
     "title": "Nothing Else Matters",
     "chordsHTML": (<pre className="tK8GG Ty_RP" ><span className="y68er">[Verse]
@@ -1021,7 +1081,7 @@ export const songs = [
       </span><div className="LJhrL">X</div></pre>)
   },
   {
-    "id": 23,
+    "id": 24,
     "artist": "Ogün Sanlısoy",
     "title": "Anma Arkadaş",
     "chordsHTML": (<pre data-key="Am" className="chords" id="key"><span><span className="c">E</span>    <span className="c">Dm</span>    <span className="c">C</span>    <span className="c">E</span> </span>
@@ -1047,7 +1107,7 @@ export const songs = [
       <span>Yırt at gitsin resmini unut artık ismini anma arkadaş</span></pre>)
   },
   {
-    "id": 24,
+    "id": 25,
     "artist": "Cem Karaca",
     "title": "Kerkük Zindanı",
     "chordsHTML": (
@@ -1075,7 +1135,7 @@ export const songs = [
     )
   },
   {
-    "id": 25,
+    "id": 26,
     "artist": "Barış Akarsu",
     "title": "Islak Islak",
     "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span>Solo: </span>
@@ -1116,7 +1176,7 @@ export const songs = [
       <span>Ne olur ıslak ıslak bakma öyle</span></pre>)
   },
   {
-    "id": 26,
+    "id": 27,
     "artist": "Barış Akarsu",
     "title": "Bir Kasaba Akşamı",
     "chordsHTML": (
@@ -1161,7 +1221,7 @@ export const songs = [
     )
   },
   {
-    "id": 27,
+    "id": 28,
     "artist": "Barış Manço",
     "title": "Gülpembe",
     "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>                 <span className="c">Am</span></span>
@@ -1199,7 +1259,7 @@ export const songs = [
       <span>Hala hep seni arar, seni bekler Gülpembe</span></pre>)
   },
   {
-    "id": 28,
+    "id": 29,
     "artist": "Barış Manço",
     "title": "Kara Sevda",
     "chordsHTML": (<pre data-key="C#m" className="chords" id="key"><span><span className="c">C#m</span></span>
@@ -1235,7 +1295,7 @@ export const songs = [
       <span>Bense nuhun gemisinde tek başına gibiyim inan ki</span></pre>)
   },
   {
-    "id": 29,
+    "id": 30,
     "artist": "Pentegram",
     "title": "Bir",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>          </span>
@@ -1302,7 +1362,7 @@ export const songs = [
       <span>Hepsi bir hepsi haktan</span></pre>)
   },
   {
-    "id": 30,
+    "id": 31,
     "artist": "Barış Akarsu",
     "title": "Yaz Demedim",
     "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>      <span className="c">C</span>           <span className="c">B7</span>            <span className="c">Em</span>   <span className="c">C</span>  <span className="c">B7</span></span>
@@ -1333,7 +1393,7 @@ export const songs = [
       <span>Böyle ihanet görmedim</span></pre>)
   },
   {
-    "id": 31,
+    "id": 32,
     "artist": "Pilli Bebek",
     "title": "Olsun",
     "chordsHTML": (<pre data-key="G#m" className="chords" id="key"><span>Intro:</span>
@@ -1382,7 +1442,7 @@ export const songs = [
       <span>Tren yolları boyu düşündüm</span></pre>)
   },
   {
-    "id": 32,
+    "id": 33,
     "artist": "Pink Floyd",
     "title": "Comfortably Numb",
     "chordsHTML": (<pre className="tK8GG Ty_RP" ><span className="y68er">[Verse 1]
@@ -1489,7 +1549,7 @@ export const songs = [
         </span></span><div className="LJhrL">X</div></pre>)
   },
   {
-    "id": 33,
+    "id": 34,
     "artist": "Barış Akarsu",
     "title": "Mavi Mavi",
     "chordsHTML": (<pre data-key="G" className="chords " id="key"><span><span className="c">Gm</span>     <span className="c">F</span>                    <span className="c">Eb</span>           <span className="c">Gm</span>    </span>
@@ -1533,7 +1593,7 @@ export const songs = [
       <span>Bir demet beyaz karanfil ne işe yarar</span></pre>)
   },
   {
-    "id": 34,
+    "id": 35,
     "artist": "Pilli Bebek",
     "title": "Haram Geceler",
     "chordsHTML": (<pre data-key="D" className="chords" id="key"><span><span className="c">F#m</span>                 <span className="c">D</span></span>
@@ -1566,7 +1626,7 @@ export const songs = [
       <span>Senin için ağlıyorum</span></pre>)
   },
   {
-    "id": 35,
+    "id": 36,
     "artist": "Yavuz Çetin",
     "title": "Köle",
     "chordsHTML": (<pre data-key="Am" className="chords" id="key"><span><span className="c">F</span>  <span className="c">G</span>  <span className="c">Am</span></span>
@@ -1609,7 +1669,7 @@ export const songs = [
       <span>N</span></pre>)
   },
   {
-    "id": 36,
+    "id": 37,
     "artist": "MFÖ",
     "title": "Bazen",
     "chordsHTML": (<pre className="tK8GG Ty_RP" ><span className="y68er">[Intro]
@@ -1671,7 +1731,7 @@ export const songs = [
         </span></span><div className="LJhrL">X</div></pre>)
   },
   {
-    "id": 37,
+    "id": 38,
     "artist": "Yavuz Çetin",
     "title": "Benimle Uçmak İster Misin",
     "chordsHTML": (<pre className="tK8GG Ty_RP"><span className="y68er">Artist: Yavuz Çetin
