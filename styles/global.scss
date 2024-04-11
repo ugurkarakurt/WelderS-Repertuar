@@ -5,7 +5,7 @@
 * {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   scrollbar-width: thin;
-  scrollbar-color: var(--black) var(--jet);
+  scrollbar-color: var(--white) var(--silver);
   font-weight: 400;
 }
 
@@ -16,19 +16,19 @@
 /* Track */
 
 ::-webkit-scrollbar-track {
-  background: var(--jet);
+  background: var(--silver);
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: var(--black);
+  background: var(--white);
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--jet);
+  background: var(--silver);
 }
 
 body {
