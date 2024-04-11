@@ -1,0 +1,36 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1 {
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      background-color: var(--jet);
+      color: var(--white);
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    gap: 1px;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      color: var(--silver);
+      transition: 0.2s ease-in-out;
+      padding: 10px;
+
+      &.active {
+        background-color: var(--jet);
+        color: var(--white);
+      }
+      &:hover {
+        background-color: var(--jet);
+        color: var(--white);
+      }
+    }
+  }
+}
