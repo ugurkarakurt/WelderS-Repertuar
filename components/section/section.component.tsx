@@ -7,7 +7,7 @@ import Image from 'next/image';
 import DropdownIcon from "@/public/caret-down.png";
 
 interface Props {
-  song: Song;
+  song: any;
 }
 
 const Section: React.FC<Props> = ({ song }) => {
