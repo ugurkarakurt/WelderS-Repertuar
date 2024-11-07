@@ -48,7 +48,7 @@ body {
 }
 
 main {
-  width: 1000px;
+  width: calc(100% - 50px);
   padding: 40px;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);

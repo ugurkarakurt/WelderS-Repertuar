@@ -20,4 +20,13 @@
   &:not(:last-child) {
     border-bottom: 1px solid #eee;
   }
+  .songWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
 }

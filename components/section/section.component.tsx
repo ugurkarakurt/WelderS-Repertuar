@@ -33,8 +33,9 @@ const Section: React.FC<Props> = ({ song }) => {
         <Image className={`${isChordsVisible && styles.active}`} width={20} height={20} src={DropdownIcon} alt="icon" />
       </h2>
       {isChordsVisible && song.chordsHTML && (
-        <div>
+        <div className={styles.songWrapper}>
           {song.chordsHTML}
+          {song.soloTab && <Image unoptimized width={100} height={100} src={song.soloTab} alt="solo_tab" />}
         </div>
       )}
     </div>

@@ -72,6 +72,7 @@ export const songs = [
     "id": 3,
     "artist": "Kıraç",
     "title": "Bir Garip Aşk Bestesi",
+    "soloTab": "/tabs/bir_garip_aşk.png",
     "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span><span className="c">Bm</span>                                              <span className="c">Em</span> </span>
       <span>Ben bir garip aşk bestesiyim, şu yüreğin güftesiyim </span>
       <span><span className="c">Bm</span>                   <span className="c">G</span>                <span className="c">F#</span></span>
@@ -103,6 +104,7 @@ export const songs = [
     "id": 4,
     "artist": "Ünlü",
     "title": "Estarabim",
+    "soloTab": "/tabs/Em_scale.png",
     "chordsHTML": (<pre data-key="B" className="chords " id="key"><span><span className="c">Em</span></span>
       <span>Çok memleketler gezdim</span>
       <span> </span>
@@ -332,6 +334,7 @@ export const songs = [
     "id": 8,
     "artist": "Adamlar",
     "title": "Yanmış İçinden",
+    "soloTab": "/tabs/yanmış_içinden.png",
     "chordsHTML": (<pre data-key="Fm" class="chords" id="key"><span><span class="c">Cm</span>  <span class="c">Fm</span>  <span class="c">Eb</span>  <span class="c">Cm</span>  <span class="c">Fm</span>  <span class="c">Db</span></span>
       <span><span class="c">Cm</span>  <span class="c">Fm</span>  <span class="c">Eb</span>  <span class="c">Cm</span>  <span class="c">Db</span></span>
       <span></span>
@@ -384,6 +387,7 @@ export const songs = [
     "id": 9,
     "artist": "Adamlar",
     "title": "Acının İlacı",
+    "soloTab": "/tabs/acının_ilacı.png",
     "chordsHTML": (<pre data-key="G#m" className="chords" id="key"><span>Intro:</span>
       <span><span className="c">G#m</span>    <span className="c">D#m</span>    <span className="c">C#m</span>   <span className="c">G#m</span>    <span className="c">D#m</span>     <span className="c">C#m</span>     <span className="c">B</span>    <span className="c">E</span>    <span className="c">D#</span></span>
       <span></span>
@@ -521,6 +525,7 @@ export const songs = [
     "id": 12,
     "artist": "Yüksek Sadakat",
     "title": "Haydi Gel İçelim",
+    "soloTab": "/tabs/haydi_gel_içelim.png",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>                         <span className="c">A</span>         </span>
       <span>Bugün çok yorulmuşsan      </span>
       <span>              <span className="c">Dm</span>             </span>
@@ -1028,6 +1033,7 @@ export const songs = [
   {
     "id": 25,
     "artist": "Mor ve Ötesi",
+    "soloTab": "/tabs/aşk_içinde.png",
     "title": "Aşk İçinde",
     "chordsHTML": (<pre data-key="Bm" class="chords" id="key"><span><span class="c">Bm</span>         <span class="c">A</span>         <span class="c">G</span>          <span class="c">F#</span></span>
       <span>Bugün varsın  yarın yoksun</span>
@@ -1060,6 +1066,7 @@ export const songs = [
     "id": 26,
     "artist": "Barış Manço",
     "title": "Gülpembe",
+    "soloTab": "/tabs/gülpembe.png",
     "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>                 <span className="c">Am</span></span>
       <span>Sen gülünce güller açar Gülpembe</span>
       <span><span className="c">Em</span>                                 <span className="c">D</span>             <span className="c">G</span>     <span className="c">F</span>        <span className="c">Em</span></span>
