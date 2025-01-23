@@ -9,22 +9,31 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    @media (max-width: 1024px) {
+      font-size: 16px;
+      gap: 5px;
+    }
     img {
       margin-top: 4px;
       transition: 0.2s ease-in-out;
       &.active {
         transform: rotate(-180deg);
       }
+      @media (max-width: 1024px) {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 2px;
+      }
     }
   }
   &:not(:last-child) {
     border-bottom: 1px solid #eee;
   }
-  .songWrapper{
+  .songWrapper {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    img{
+    img {
       width: 100%;
       height: auto;
     }
