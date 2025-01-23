@@ -87,6 +87,10 @@
   bottom: 20px;
   right: 40px;
   gap: 5px;
+
+  @media (max-width: 1024px) {
+    right: 10px;
+  }
 }
 
 .hamburgerButton {
