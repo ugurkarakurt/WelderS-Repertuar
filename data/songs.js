@@ -289,102 +289,59 @@ export const songs = [
   },
   {
     "id": 7,
-    "artist": "Yirmi Yedi",
-    "title": "Muhtemel Aşk",
-    "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span></span>
-      <span>Muhtemel aşk için</span>
-      <span>Aştım bendimi</span>
-      <span>Yolculuk nereye      </span>
-      <span>                                      <span className="c">Gm</span></span>
-      <span>Dinlemeden kendimi</span>
-      <span>      <span className="c">Am</span>                        <span className="c">Dm</span>     </span>
-      <span>Ah ah muhtemelen aşk</span>
-      <span></span>
-      <span><span className="c">Dm</span></span>
-      <span>Bir anda çocuk oldum</span>
-      <span>Saklandı kederlerim</span>
-      <span>Yumdum gözlerimi </span>
-      <span>                                     <span className="c">Gm</span></span>
-      <span>Sana açtım kendimi</span>
-      <span>      <span className="c">Am</span>                        <span className="c">Dm</span></span>
-      <span>Ah ah muhtemelen aşk</span>
-      <span></span>
-      <span><span className="c">Bb</span>  <span className="c">C</span>                             <span className="c">Dm</span></span>
-      <span>Ah      muhtemel aşk için</span>
-      <span>               <span className="c">Bb</span></span>
-      <span>Virane oldum</span>
-      <span>                      <span className="c">C</span></span>
-      <span>Bir an-ı aşk ömrüme </span>
-      <span><span className="c">Bb</span>           <span className="c">Dm</span></span>
-      <span>Divane oldu</span>
-      <span></span>
-      <span><span className="c">Bb</span>  <span className="c">C</span>                      <span className="c">Dm</span></span>
-      <span>Ah      muhtemel aşk </span>
-      <span></span>
-      <span><span className="c">Dm</span></span>
-      <span>Hiç canım acımadan</span>
-      <span>Aşık oldum sandım</span>
-      <span>Dikenlerin üstünde</span>
-      <span>                                           <span className="c">Gm</span></span>
-      <span>Bir tebessüm yüzümde </span>
-      <span>       <span className="c">Am</span>                        <span className="c">Dm</span></span>
-      <span>Ah ah muhtemelen aşk</span></pre>)
-  },
-  {
-    "id": 8,
     "artist": "Adamlar",
     "title": "Yanmış İçinden",
     "soloTab": "/tabs/yanmış_içinden.png",
-    "chordsHTML": (<pre data-key="Fm" class="chords" id="key"><span><span class="c">Cm</span>  <span class="c">Fm</span>  <span class="c">Eb</span>  <span class="c">Cm</span>  <span class="c">Fm</span>  <span class="c">Db</span></span>
-      <span><span class="c">Cm</span>  <span class="c">Fm</span>  <span class="c">Eb</span>  <span class="c">Cm</span>  <span class="c">Db</span></span>
+    "chordsHTML": (<pre data-key="Fm" className="chords" id="key"><span><span className="c">Cm</span>  <span className="c">Fm</span>  <span className="c">Eb</span>  <span className="c">Cm</span>  <span className="c">Fm</span>  <span className="c">Db</span></span>
+      <span><span className="c">Cm</span>  <span className="c">Fm</span>  <span className="c">Eb</span>  <span className="c">Cm</span>  <span className="c">Db</span></span>
       <span></span>
-      <span><span class="c">Cm</span>                                     <span class="c">Fm</span>  <span class="c">Eb</span></span>
+      <span><span className="c">Cm</span>                                     <span className="c">Fm</span>  <span className="c">Eb</span></span>
       <span>Akar zaman yakar zaman</span>
-      <span><span class="c">Cm</span>                                   <span class="c">Fm</span>  <span class="c">Db</span></span>
+      <span><span className="c">Cm</span>                                   <span className="c">Fm</span>  <span className="c">Db</span></span>
       <span>Kirli temiz eksik tamam</span>
-      <span><span class="c">Cm</span>                               <span class="c">Fm</span>  <span class="c">Eb</span></span>
+      <span><span className="c">Cm</span>                               <span className="c">Fm</span>  <span className="c">Eb</span></span>
       <span>Yuvarlanıp yokuşlardan</span>
-      <span><span class="c">Cm</span>                                <span class="c">Gb</span>  <span class="c">Db</span></span>
+      <span><span className="c">Cm</span>                                <span className="c">Gb</span>  <span className="c">Db</span></span>
       <span>Duraklarda duruyorum</span>
       <span></span>
-      <span><span class="c">Cm</span>                                    <span class="c">Fm</span>  <span class="c">Eb</span></span>
+      <span><span className="c">Cm</span>                                    <span className="c">Fm</span>  <span className="c">Eb</span></span>
       <span>Duyduğumu bağırmadan</span>
-      <span><span class="c">Cm</span>                              <span class="c">Fm</span>  <span class="c">Db</span></span>
+      <span><span className="c">Cm</span>                              <span className="c">Fm</span>  <span className="c">Db</span></span>
       <span>Fazlasına sarılmadan</span>
-      <span><span class="c">Cm</span>                              <span class="c">Fm</span>  <span class="c">Eb</span></span>
+      <span><span className="c">Cm</span>                              <span className="c">Fm</span>  <span className="c">Eb</span></span>
       <span>Gece gündüz arasında</span>
-      <span><span class="c">Cm</span>                            <span class="c">Fm</span>  <span class="c">Db</span></span>
+      <span><span className="c">Cm</span>                            <span className="c">Fm</span>  <span className="c">Db</span></span>
       <span>Mekikleri dokuyorum</span>
       <span></span>
-      <span><span class="c">Fm</span>         <span class="c">Eb</span>  <span class="c">Bbm</span></span>
+      <span><span className="c">Fm</span>         <span className="c">Eb</span>  <span className="c">Bbm</span></span>
       <span>Yanmış içinden</span>
-      <span><span class="c">Db</span>                     <span class="c">Eb</span>     <span class="c">Cm</span></span>
+      <span><span className="c">Db</span>                     <span className="c">Eb</span>     <span className="c">Cm</span></span>
       <span>Söylenmez dile gelmez</span>
-      <span><span class="c">Fm</span>          <span class="c">Eb</span>      <span class="c">Bbm</span></span>
+      <span><span className="c">Fm</span>          <span className="c">Eb</span>      <span className="c">Bbm</span></span>
       <span>Kuyunun dibinden</span>
-      <span><span class="c">Db</span>              <span class="c">Eb</span>     <span class="c">Cm</span></span>
+      <span><span className="c">Db</span>              <span className="c">Eb</span>     <span className="c">Cm</span></span>
       <span>Çalar eski bir şarkı</span>
       <span></span>
-      <span><span class="c">Fm</span>     <span class="c">Eb</span>  <span class="c">Bbm</span></span>
+      <span><span className="c">Fm</span>     <span className="c">Eb</span>  <span className="c">Bbm</span></span>
       <span>Yanmış içinden</span>
-      <span><span class="c">Db</span>                   <span class="c">Eb</span>         <span class="c">Cm</span></span>
+      <span><span className="c">Db</span>                   <span className="c">Eb</span>         <span className="c">Cm</span></span>
       <span>Merhemi yok bulunmaz</span>
-      <span><span class="c">Fm</span>       <span class="c">Eb</span>      <span class="c">Bbm</span></span>
+      <span><span className="c">Fm</span>       <span className="c">Eb</span>      <span className="c">Bbm</span></span>
       <span>Gizden gölgeden</span>
-      <span><span class="c">Db</span>              <span class="c">Eb</span>      <span class="c">Cm</span></span>
+      <span><span className="c">Db</span>              <span className="c">Eb</span>      <span className="c">Cm</span></span>
       <span>Yürür yarası saklı</span>
       <span></span>
-      <span><span class="c">Cm</span>                                   <span class="c">Fm</span>  <span class="c">Eb</span></span>
+      <span><span className="c">Cm</span>                                   <span className="c">Fm</span>  <span className="c">Eb</span></span>
       <span>Elimdeki kartlar bunlar</span>
-      <span><span class="c">Cm</span>                                    <span class="c">Fm</span>  <span class="c">Db</span></span>
+      <span><span className="c">Cm</span>                                    <span className="c">Fm</span>  <span className="c">Db</span></span>
       <span>Aynada gördüğüm kafam</span>
-      <span><span class="c">Cm</span>                             <span class="c">Fm</span>   <span class="c">Eb</span>    </span>
+      <span><span className="c">Cm</span>                             <span className="c">Fm</span>   <span className="c">Eb</span>    </span>
       <span>Başka kafamdaki adamdan</span>
-      <span><span class="c">Cm</span>                               <span class="c">Fm</span>  <span class="c">Db</span></span>
+      <span><span className="c">Cm</span>                               <span className="c">Fm</span>  <span className="c">Db</span></span>
       <span>Olsun devam ediyorum</span></pre>)
   },
   {
-    "id": 9,
+    "id": 8,
     "artist": "Adamlar",
     "title": "Acının İlacı",
     "soloTab": "/tabs/acının_ilacı.png",
@@ -450,41 +407,211 @@ export const songs = [
       <span>Acının ilacı, acının ilacı</span></pre>)
   },
   {
+    "id": 9,
+    "artist": "Yirmi Yedi",
+    "title": "Muhtemel Aşk",
+    "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span></span>
+      <span>Muhtemel aşk için</span>
+      <span>Aştım bendimi</span>
+      <span>Yolculuk nereye      </span>
+      <span>                                      <span className="c">Gm</span></span>
+      <span>Dinlemeden kendimi</span>
+      <span>      <span className="c">Am</span>                        <span className="c">Dm</span>     </span>
+      <span>Ah ah muhtemelen aşk</span>
+      <span></span>
+      <span><span className="c">Dm</span></span>
+      <span>Bir anda çocuk oldum</span>
+      <span>Saklandı kederlerim</span>
+      <span>Yumdum gözlerimi </span>
+      <span>                                     <span className="c">Gm</span></span>
+      <span>Sana açtım kendimi</span>
+      <span>      <span className="c">Am</span>                        <span className="c">Dm</span></span>
+      <span>Ah ah muhtemelen aşk</span>
+      <span></span>
+      <span><span className="c">Bb</span>  <span className="c">C</span>                             <span className="c">Dm</span></span>
+      <span>Ah      muhtemel aşk için</span>
+      <span>               <span className="c">Bb</span></span>
+      <span>Virane oldum</span>
+      <span>                      <span className="c">C</span></span>
+      <span>Bir an-ı aşk ömrüme </span>
+      <span><span className="c">Bb</span>           <span className="c">Dm</span></span>
+      <span>Divane oldu</span>
+      <span></span>
+      <span><span className="c">Bb</span>  <span className="c">C</span>                      <span className="c">Dm</span></span>
+      <span>Ah      muhtemel aşk </span>
+      <span></span>
+      <span><span className="c">Dm</span></span>
+      <span>Hiç canım acımadan</span>
+      <span>Aşık oldum sandım</span>
+      <span>Dikenlerin üstünde</span>
+      <span>                                           <span className="c">Gm</span></span>
+      <span>Bir tebessüm yüzümde </span>
+      <span>       <span className="c">Am</span>                        <span className="c">Dm</span></span>
+      <span>Ah ah muhtemelen aşk</span></pre>)
+  },
+  {
     "id": 10,
-    "artist": "Haluk Levent",
-    "title": "Aşkın Mapushane",
-    "chordsHTML": (<pre data-key="Cm" className="chords" id="key"><span><span className="c">Cm</span>              <span className="c">Bb</span>       <span className="c">Cm</span></span>
-      <span>Keşke seni tanımamış    </span>
-      <span><span className="c">Eb</span>                <span className="c">Bb</span>             <span className="c">Cm</span></span>
-      <span>Keşke sevmemiş olsaydım</span>
-      <span><span className="c">Ab</span>             <span className="c">Cm</span>        <span className="c">Bb</span>     </span>
-      <span>Zincire vurulmuş gibi  </span>
-      <span><span className="c">Cm</span>        <span className="c">Bb</span>      <span className="c">Ab</span>     <span className="c">Cm</span>  </span>
-      <span>Sana bağlı kalmasaydım    </span>
-      <span>  </span>
-      <span><span className="c">Cm</span>                   </span>
-      <span>Aşkın mapushane       </span>
-      <span>           <span className="c">Bb</span>             </span>
-      <span>İçinde ben mahkum      </span>
-      <span>                     </span>
-      <span>Saçların parmaklık      </span>
-      <span><span className="c">Ab</span>            <span className="c">Bb</span>     <span className="c">Ab</span>      <span className="c">Cm</span></span>
-      <span>Gözlerin gardiyan olmuş</span>
+    "artist": "Barış Manço",
+    "title": "Kara Sevda",
+    "chordsHTML": (<pre data-key="C#m" className="chords" id="key"><span><span className="c">C#m</span></span>
+      <span>Nasıl anlatsam bilemiyorum içim içime sığmıyor</span>
+      <span><span className="c">F#m</span>                                                                  <span className="c">G#</span></span>
+      <span>O deli dolu neşe dolu kişi ben değilim sanki</span>
+      <span><span className="c">C#m</span></span>
+      <span>Dışarısı buz gibi lapa lapa kar var benim içim yanıyor</span>
+      <span><span className="c">F#m</span>                                                                       <span className="c">G#</span></span>
+      <span>Eksi kırk derece soğuk suda bile yüzerim inan ki</span>
       <span></span>
-      <span><span className="c">G</span>        <span className="c">Ab</span>      <span className="c">Bb</span>       <span className="c">Cm</span>    </span>
-      <span>İçinde ben ziyan oldum  </span>
+      <span><span className="c">C#m</span></span>
+      <span>Kara sevda kara sevda</span>
+      <span><span className="c">B</span>                                <span className="c">C#m</span></span>
+      <span>Dedikleri daha ne olabilir ki</span>
+      <span><span className="c">C#m</span></span>
+      <span>Kara sevda kara sevda</span>
+      <span><span className="c">B</span>                                <span className="c">C#m</span></span>
+      <span>Seni benden kim ayırabilir ki</span>
       <span></span>
-      <span><span className="c">Cm</span>               <span className="c">Bb</span>        <span className="c">Cm</span></span>
-      <span>Alın yazımda varmışsın</span>
-      <span><span className="c">Eb</span>                <span className="c">Bb</span>           <span className="c">Cm</span></span>
-      <span>Kalbimi benden çalmışsın</span>
-      <span><span className="c">Ab</span>                    <span className="c">Cm</span>        <span className="c">Bb</span></span>
-      <span>Sensizliğe bir duman gibi</span>
-      <span><span className="c">Cm</span>     <span className="c">Bb</span>         <span className="c">Ab</span>        <span className="c">Cm</span>   </span>
-      <span>Sigaranda beni yakmışsın</span></pre>),
+      <span><span className="c">F#m</span>                    <span className="c">C#m</span>                    <span className="c">G#</span>                    <span className="c">C#m</span>           </span>
+      <span>Çocukça bir aşk deyip de geçme sakın gülme halime</span>
+      <span><span className="c">F#m</span>                      <span className="c">C#m</span>                          <span className="c">G#</span>                     <span className="c">C#m</span></span>
+      <span>Nasıl olduğunu anlayamadım ama, seviyorum seni delicesine</span>
+      <span></span>
+      <span><span className="c">C#m</span></span>
+      <span>Nasıl anlatsan bilemiyorum gözlerim kararıyor</span>
+      <span><span className="c">F#m</span>                                                      <span className="c">G#</span></span>
+      <span>Tepe taklak oldu dünya tersine sanki</span>
+      <span><span className="c">C#m</span></span>
+      <span>Bütün aşıklar el ele kol kola cıvıl cıvıl geziyor</span>
+      <span><span className="c">F#m</span>                                                                             <span className="c">G#</span></span>
+      <span>Bense nuhun gemisinde tek başına gibiyim inan ki</span></pre>)
   },
   {
     "id": 11,
+    "artist": "Kurban",
+    "title": "Sarı Çizmeli Mehmet Ağa",
+    "chordsHTML": (
+      <pre data-key="Am" className="chords" id="key"><span><span className="c">Em</span></span>
+        <span>Yaz dostum, güzel sevmeyene adam denir mi</span>
+        <span><span className="c">Em</span></span>
+        <span>Yaz dostum, selam almayana yiğit denir mi</span>
+        <span><span className="c">Am</span>                  <span className="c">Em</span>         <span className="c">F</span>              <span className="c">G</span>         <span className="c">Em</span></span>
+        <span>Yaz dostum, altı üstü beş metrelik bez için</span>
+        <span><span className="c">Am</span>                   <span className="c">Em</span>                <span className="c">F</span>           <span className="c">G</span>              <span className="c">Em</span></span>
+        <span>Yaz dostum, boşa geçmiş ömre yaşam denir mi</span>
+        <span> </span>
+        <span><span className="c">Em</span></span>
+        <span>Yaz tahtaya bir daha, tut defteri kitabı</span>
+        <span><span className="c">Am</span>                                         <span className="c">Em</span>    </span>
+        <span>Sarı çizmeli Mehmet Ağa, bir gün öder hesabı</span>
+        <span> </span>
+        <span><span className="c">Em</span></span>
+        <span>Yaz dostum, yoksul görsen besle kaymak bal ile</span>
+        <span><span className="c">Em</span></span>
+        <span>Yaz dostum, garipleri giydir ipek şal ile</span>
+        <span><span className="c">Am</span>                  <span className="c">Em</span>                    <span className="c">F</span>             <span className="c">G</span>       <span className="c">Em</span></span>
+        <span>Yaz dostum, öksüz görsen sar kanadı kolunu</span>
+        <span><span className="c">Am</span>                <span className="c">Em</span>                       <span className="c">F</span>             <span className="c">G</span>           <span className="c">Em</span></span>
+        <span>Yaz dostum, kimse göçmez bu dünyadan mal ile</span>
+        <span> </span>
+        <span>N</span>
+        <span> </span>
+        <span><span className="c">Em</span></span>
+        <span>Yaz dostum Barış söyler kendi bir ders alır mı</span>
+        <span><span className="c">Em</span></span>
+        <span>Yaz dostum su üstüne yazı yazsan kalır mı</span>
+        <span><span className="c">Am</span>                <span className="c">Em</span>                     <span className="c">F</span>    <span className="c">G</span>             <span className="c">Em</span></span>
+        <span>Yaz dostum bir dünya ki haklı haksız karışmış</span>
+        <span><span className="c">Am</span>                  <span className="c">Em</span>                <span className="c">F</span>              <span className="c">G</span>             <span className="c">Em</span></span>
+        <span>Yaz dostum boşa koysan dolmaz dolusu alır mı</span>
+        <span> </span>
+        <span>N</span></pre>
+    )
+  },
+  {
+    "id": 12,
+    "artist": "MFÖ",
+    "title": "Ele Güne Karşı",
+    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span></span>
+      <span>Arayıp sormasan da unuttum seni sanma</span>
+      <span><span className="c">Am</span>                      <span className="c">Em</span></span>
+      <span>Dünya bir yana sen bir yana</span>
+      <span><span className="c">G</span>                                       <span className="c">Am</span></span>
+      <span>Aşık ettin beni kendine sonra da terkettin gizlice</span>
+      <span><span className="c">D</span>                                      <span className="c">B</span></span>
+      <span>Aradım seni her yerde hiç kimselere soramadım    </span>
+      <span></span>
+      <span><span className="c">Em</span></span>
+      <span>Bekledim dön diye dönmedin bile bile</span>
+      <span><span className="c">Am</span>                           <span className="c">Em</span></span>
+      <span>Bile bile sevdiğimi korkundan gelmedin</span>
+      <span><span className="c">G</span>                                   <span className="c">Am</span></span>
+      <span>Arayıp sormasan da unuttum seni sanma sakın</span>
+      <span><span className="c">D</span>                          <span className="c">B</span></span>
+      <span>Dünya bir yana sen bir yana</span>
+      <span></span>
+      <span><span className="c">C</span>                        <span className="c">D</span>                 <span className="c">Am</span>                   <span className="c">Em</span></span>
+      <span>Ele güne karşı yapayalnız böyle de olmaz ki</span>
+      <span><span className="c">C</span>                       <span className="c">D</span>              <span className="c">Am</span>                    <span className="c">Em</span></span>
+      <span>Nasıl da gittin insafsız böyle bırakılmaz ki</span>
+      <span><span className="c">Am</span>                              <span className="c">Em</span>            <span className="c">Am</span>                    <span className="c">B</span></span>
+      <span>Unuturum sanmıştın güzelim, gözüm yollarda kaldı</span>
+      <span></span>
+      <span><span className="c">Em</span></span>
+      <span>Haberin gelir bana duyarım nasıl olsa</span>
+      <span><span className="c">Am</span>                            <span className="c">Em</span></span>
+      <span>Bilirim kimlerlesin ne yaptın neler ettin</span>
+      <span><span className="c">G</span>                                       <span className="c">Am</span></span>
+      <span>Aklım fikrim hep sende sevsen de sevmesen de</span>
+      <span><span className="c">D</span>                                    <span className="c">B</span></span>
+      <span>Seni hiç aldatmadım aldatmayı hiç sevmem</span></pre>)
+  },
+  {
+    "id": 13,
+    "artist": "Ayna",
+    "title": "Ölünce Sevemezsem Seni",
+    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>                                   <span className="c">Am</span></span>
+      <span>Toprağından dönsün yüzüm</span>
+      <span><span className="c">Am</span>                                     <span className="c">G</span></span>
+      <span>Ölünce sevemezesem seni</span>
+      <span><span className="c">G</span>                           <span className="c">D</span></span>
+      <span>Kan ağlasın iki gözüm</span>
+      <span><span className="c">D</span>                                 <span className="c">Em</span></span>
+      <span>Ölünce sevemezsen seni   x2</span>
+      <span></span>
+      <span><span className="c">Em</span>                            <span className="c">Am</span></span>
+      <span>Hak rahmetin görmeyin</span>
+      <span><span className="c">Am</span>                          <span className="c">G</span></span>
+      <span>Gonca gülün vermeyim</span>
+      <span><span className="c">G</span>                        <span className="c">D</span></span>
+      <span>Muradıma ermeyin</span>
+      <span><span className="c">D</span>                                 <span className="c">Em</span></span>
+      <span>Ölünce sevemezsen beni    x2</span>
+      <span> </span>
+      <span><span className="c">Em</span>                   <span className="c">Am</span></span>
+      <span>Yaşamak yıldızlarda</span>
+      <span><span className="c">D</span>                               <span className="c">Em</span></span>
+      <span>Seninle olmak istiyorum</span>
+      <span><span className="c">Em</span>                         <span className="c">Am</span></span>
+      <span>Sevişmek hüner değil</span>
+      <span><span className="c">D</span>                                 <span className="c">Em</span></span>
+      <span>Yanında kalmak istiyorum</span>
+      <span><span className="c">Em</span>                          <span className="c">C</span></span>
+      <span>Yaşamak hüner değil</span>
+      <span><span className="c">D</span>                               <span className="c">Em</span></span>
+      <span>Seninle ölmek istiyorum</span>
+      <span></span>
+      <span><span className="c">Em</span>                            <span className="c">Am</span></span>
+      <span>Ben bu yerde ölsem de</span>
+      <span><span className="c">Am</span>                        <span className="c">G</span></span>
+      <span>Ay yüzlüm yine elde</span>
+      <span><span className="c">G</span>                                  <span className="c">D</span></span>
+      <span>Muhtaç olayım namerde</span>
+      <span><span className="c">D</span>                                  <span className="c">Em</span></span>
+      <span>Ölünce sevemezsem seni     x2</span></pre>
+    )
+  },
+  {
+    "id": 14,
     "artist": "Haluk Levent",
     "title": "Dert Olur",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">A</span>                                       <span className="c">Bb</span></span>
@@ -522,7 +649,632 @@ export const songs = [
       <span>Bir bakarsın düşlerin gerçek olur</span></pre>)
   },
   {
-    "id": 12,
+    "id": 15,
+    "artist": "Barış Akarsu",
+    "title": "Bir Kasaba Akşamı",
+    "chordsHTML": (
+      <pre data-key="Em" className="chords" id="key"><span>Intro:</span>
+        <span><span className="c">Am</span>   <span className="c">G</span>    <span className="c">F</span>    <span className="c">E</span></span>
+        <span></span>
+        <span><span className="c">Am</span>                                <span className="c">G</span>             <span className="c">E</span></span>
+        <span>Akşamları oturup ağlamaklı ve yalnız</span>
+        <span><span className="c">F</span>                                       <span className="c">G</span>                <span className="c">E</span></span>
+        <span>Kucağımda fotoğraflar fakülte yılları</span>
+        <span><span className="c">Am</span>                                      <span className="c">G</span>                  <span className="c">E</span></span>
+        <span>Seksenlerde İstanbul da hüzün grupları</span>
+        <span><span className="c">F</span>                                               <span className="c">G</span>                <span className="c">E</span></span>
+        <span>Duygu yüklü sevgililer kaçamak öpücükler</span>
+        <span></span>
+        <span><span className="c">Am</span>           <span className="c">G</span>                    <span className="c">F</span>                 <span className="c">E</span></span>
+        <span>Yirmi yaşın yüreğinde kaybettiği düşleri</span>
+        <span><span className="c">Am</span>                        <span className="c">G</span>              <span className="c">F</span>                 <span className="c">E</span></span>
+        <span>Caddeler boyunca gezdiği heyecan dolu günleri</span>
+        <span><span className="c">Am</span>             <span className="c">G</span>                      <span className="c">F</span>                    <span className="c">E</span></span>
+        <span>Toplanıp konuşurlardı yaşama dair geceleri</span>
+        <span><span className="c">Am</span>                  <span className="c">G</span>                   <span className="c">F</span>                    <span className="c">E</span></span>
+        <span>Gözyaşları süzülüyor düşündükçe hepsini</span>
+        <span></span>
+        <span><span className="c">Am</span>                                          <span className="c">G</span>                 <span className="c">E</span></span>
+        <span>Ana caddede kasabanın eczanesinde şimdi </span>
+        <span><span className="c">Am</span>                                       <span className="c">G</span>                 <span className="c">E</span></span>
+        <span>Saatlerce uzaklarda metropol hayatından</span>
+        <span><span className="c">Am</span>                                        <span className="c">G</span>                 <span className="c">E</span></span>
+        <span>Gündüzleri kar hesabı sevişmenin özlemi</span>
+        <span><span className="c">Am</span>                                     <span className="c">G</span>              <span className="c">E</span></span>
+        <span>Çocukluktu gözlerine adanan şiirleri</span>
+        <span></span>
+        <span><span className="c">Am</span>           <span className="c">G</span>                    <span className="c">F</span>                 <span className="c">E</span></span>
+        <span>Yirmi yaşın yüreğinde kaybettiği düşleri</span>
+        <span><span className="c">Am</span>                        <span className="c">G</span>              <span className="c">F</span>                 <span className="c">E</span></span>
+        <span>Caddeler boyunca gezdiği heyecan dolu günleri</span>
+        <span><span className="c">Am</span>             <span className="c">G</span>                      <span className="c">F</span>                    <span className="c">E</span></span>
+        <span>Toplanıp konuşurlardı yaşama dair geceleri</span>
+        <span><span className="c">Am</span>                  <span className="c">G</span>                   <span className="c">F</span>                    <span className="c">E</span></span>
+        <span>Gözyaşları süzülüyor düşündükçe hepsini</span></pre>
+    )
+  },
+  {
+    "id": 16,
+    "artist": "Barış Akarsu",
+    "title": "Yaz Demedim",
+    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>      <span className="c">C</span>           <span className="c">B7</span>            <span className="c">Em</span>   <span className="c">C</span>  <span className="c">B7</span></span>
+      <span>Yeter bu defa bu iş bitiyor </span>
+      <span><span className="c">Em</span>              <span className="c">C</span>      <span className="c">B7</span>           <span className="c">Em</span>   <span className="c">C</span>  <span className="c">B7</span></span>
+      <span>Bana ettiklerin ağır geliyor </span>
+      <span><span className="c">Em</span>              <span className="c">C</span>   <span className="c">B7</span>             <span className="c">Em</span>  <span className="c">C</span> <span className="c">B7</span></span>
+      <span>Yetti bu sefer bu iş bitiyor </span>
+      <span><span className="c">Em</span>                    <span className="c">C</span>    <span className="c">B7</span>                <span className="c">Em</span>  <span className="c">C</span> <span className="c">B7</span></span>
+      <span>Aşk dediğin tuzak canımı yakıyor </span>
+      <span></span>
+      <span><span className="c">G</span>             <span className="c">Am</span>                      <span className="c">D</span></span>
+      <span>Sevmek nedir hiç bilmedin </span>
+      <span><span className="c">D</span>                   <span className="c">G</span>                  <span className="c">Em</span></span>
+      <span>Sevene de kıymet vermedin </span>
+      <span><span className="c">Em</span>         <span className="c">Am</span>                    <span className="c">D</span></span>
+      <span>Aşkı bize reva görmedin </span>
+      <span><span className="c">D</span>                                  <span className="c">B7</span></span>
+      <span>Sensin benim felaketim ooo</span>
+      <span></span>
+      <span><span className="c">Em</span>               <span className="c">C</span>   <span className="c">B7</span>             <span className="c">Em</span></span>
+      <span>Yaz demedim kış demedim </span>
+      <span><span className="c">Em</span>         <span className="c">C</span>   <span className="c">B7</span>          <span className="c">Em</span></span>
+      <span>Sen istedin ben geldim </span>
+      <span><span className="c">Em</span>            <span className="c">C</span>          <span className="c">B7</span>      <span className="c">Em</span></span>
+      <span>Nedir bu senden çektiğim </span>
+      <span><span className="c">Em</span>        <span className="c">C</span>       <span className="c">B7</span>         <span className="c">Em</span></span>
+      <span>Böyle ihanet görmedim</span></pre>)
+  },
+  {
+    "id": 17,
+    "artist": "Barış Akarsu",
+    "title": "Gözlerin",
+    "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span>         <span className="c">Bm</span>            <span className="c">G</span>              <span className="c">A</span></span>
+      <span>Gözlerin boşluğa dalıp gider, </span>
+      <span>              <span className="c">F#</span>          <span className="c">G</span>                   <span className="c">Em</span>          <span className="c">A</span>  <span className="c">F#</span></span>
+      <span>Sahipsiz bakışların benim olsun isterim.  </span>
+      <span></span>
+      <span>        <span className="c">Bm</span>            <span className="c">G</span>            <span className="c">A</span></span>
+      <span>Sırlarım acıdan ağlar örer,</span>
+      <span>              <span className="c">F#</span>            <span className="c">G</span>           <span className="c">Em</span>            <span className="c">A</span>   <span className="c">F#</span></span>
+      <span>Kendi kayboluşlarım, sende dursun isterim  </span>
+      <span></span>
+      <span>        <span className="c">Bm</span>               <span className="c">G</span>           <span className="c">A</span></span>
+      <span>Ağladım senin için ilk defa</span>
+      <span>         <span className="c">F#</span>                <span className="c">G</span>              <span className="c">Em</span>              <span className="c">A</span>   <span className="c">F#</span></span>
+      <span>Elimde parçalanmış bir hayat var aslında</span>
+      <span></span>
+      <span>               <span className="c">Bm</span>               <span className="c">G</span>               <span className="c">A</span></span>
+      <span>Hapsoldum söylediğim yalanlara</span>
+      <span>           <span className="c">F#</span>                   <span className="c">G</span>                <span className="c">Em</span>                <span className="c">A</span>  <span className="c">F#m</span></span>
+      <span>Çıkışlar hep kapanmış, ruhum dar sokaklarda  </span>
+      <span></span>
+      <span>           <span className="c">Bm</span>            <span className="c">G</span>        <span className="c">A</span></span>
+      <span>Sırlarım acıdan ağlar örer,</span>
+      <span>               <span className="c">F#</span>              <span className="c">G</span>               <span className="c">Em</span>             <span className="c">A</span>  <span className="c">F#m</span></span>
+      <span>Kendi kayboluşlarım, sende dursun isterim</span></pre>)
+  },
+  {
+    "id": 18,
+    "artist": "Barış Akarsu",
+    "title": "Islak Islak",
+    "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span>Solo: </span>
+      <span><span className="c">Bm</span>  <span className="c">A</span>  <span className="c">G</span>      <span className="c">G</span>  <span className="c">A</span>   <span className="c">Bm</span></span>
+      <span></span>
+      <span><span className="c">Bm</span>                                      <span className="c">D</span>  <span className="c">A</span>   <span className="c">Bm</span></span>
+      <span>Gecenin nemimi düşmüş gözlerine</span>
+      <span><span className="c">Bm</span>                               <span className="c">A</span>      <span className="c">Bm</span>  </span>
+      <span>Ne olur ıslak ıslak bakma öyle</span>
+      <span></span>
+      <span><span className="c">Bm</span>                    <span className="c">A</span>        <span className="c">Em</span>     <span className="c">D</span>              </span>
+      <span>Saçını dök sineme derdini söyle</span>
+      <span><span className="c">G</span>               <span className="c">A</span>                <span className="c">G</span>  <span className="c">A</span>   <span className="c">Bm</span></span>
+      <span>Yeterki ıslak ıslak   bakma  öyle</span>
+      <span></span>
+      <span><span className="c">Bm</span>         <span className="c">A</span>                <span className="c">G</span>     <span className="c">D</span>                          </span>
+      <span>Sürerim buluttan  tarlaları</span>
+      <span><span className="c">Em</span>                 <span className="c">D</span>                <span className="c">A</span>       <span className="c">Bm</span></span>
+      <span>Yağmurlar ekerim   göğün göğsüne</span>
+      <span><span className="c">Bm</span>                  <span className="c">A</span>          <span className="c">G</span>       <span className="c">D</span>                          </span>
+      <span>Güneşte demlerim senin çayını  </span>
+      <span><span className="c">Em</span>                   <span className="c">D</span>       <span className="c">A</span>    <span className="c">Bm</span> </span>
+      <span>Yüreğimden süzer öyle veririm </span>
+      <span></span>
+      <span><span className="c">Bm</span>                       <span className="c">G</span>          <span className="c">D</span>        <span className="c">Em</span></span>
+      <span>Ben feleğin şu çarkına çomak sokarım</span>
+      <span><span className="c">Bm</span>                <span className="c">G</span>              <span className="c">D</span>        <span className="c">Em</span></span>
+      <span>Ben feleğin tekerine   çomak sokarım   </span>
+      <span> </span>
+      <span><span className="c">Bm</span>              <span className="c">A</span>            <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span> </span>
+      <span>Yeterki ıslak ıslak  bakma öyle</span>
+      <span><span className="c">Bm</span>              <span className="c">A</span>            <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span> </span>
+      <span>Ne olur ıslak ıslak bakma öyle</span>
+      <span></span>
+      <span><span className="c">Bm</span>            <span className="c">A</span>            <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span> </span>
+      <span>Yeterki ıslak ıslak  bakma öyle</span>
+      <span><span className="c">G</span>               <span className="c">A</span>         <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span></span>
+      <span>Ne olur ıslak ıslak bakma öyle</span></pre>)
+  },
+  {
+    "id": 19,
+    "artist": "Barış Akarsu",
+    "title": "Mavi",
+    "chordsHTML": (<pre data-key="G" className="chords " id="key"><span><span className="c">Gm</span>     <span className="c">F</span>                    <span className="c">Eb</span>           <span className="c">Gm</span>    </span>
+      <span>Çile kokladım karanfil niyetine </span>
+      <span>     <span className="c">Gm</span>       <span className="c">F</span>              <span className="c">Eb</span>             <span className="c">Gm</span></span>
+      <span>Sabrı okşadım zorladım sen diye </span>
+      <span>             <span className="c">Dm</span>  <span className="c">F</span>  <span className="c">Gm</span>         <span className="c">Dm</span>  <span className="c">F</span>  <span className="c">Gm</span> </span>
+      <span>Baktım dünyaya senin gözünle </span>
+      <span>           <span className="c">Eb</span>               <span className="c">F</span>       <span className="c">Eb</span>         <span className="c">F</span>  <span className="c">Gm</span> </span>
+      <span>Hep savaş hep yıkım ateşler içinde</span>
+      <span></span>
+      <span><span className="c">Gm</span>             <span className="c">F</span>                 <span className="c">Eb</span>       <span className="c">F</span>           <span className="c">Gm</span>        </span>
+      <span>Mavi mavi gözlerinde hep sitem mi var        </span>
+      <span><span className="c">Gm</span>                <span className="c">F</span>               <span className="c">Eb</span>       <span className="c">F</span>        <span className="c">Gm</span>        </span>
+      <span>Yoksa insan sevdiğine böyle mi bakar         </span>
+      <span><span className="c">Gm</span>             <span className="c">F</span>                 <span className="c">Eb</span>       <span className="c">F</span>           <span className="c">Gm</span>         </span>
+      <span>Mavi mavi gözlerinde top tüfek mi var       </span>
+      <span><span className="c">Gm</span>                 <span className="c">F</span>                    <span className="c">Eb</span>       <span className="c">F</span>      <span className="c">Gm</span>        </span>
+      <span>Böyle haksız bir savaştan kim galip çıkar   </span>
+      <span></span>
+      <span><span className="c">Gm</span>     <span className="c">F</span>                    <span className="c">Eb</span>           <span className="c">Gm</span>    </span>
+      <span>Çile kokladım karanfil niyetine </span>
+      <span>     <span className="c">Gm</span>       <span className="c">F</span>              <span className="c">Eb</span>             <span className="c">Gm</span></span>
+      <span>Sabrı okşadım zorladım sen diye </span>
+      <span>             <span className="c">Dm</span>  <span className="c">F</span>  <span className="c">Gm</span>         <span className="c">Dm</span>  <span className="c">F</span>  <span className="c">Gm</span> </span>
+      <span>Baktım dünyaya senin gözünle </span>
+      <span>           <span className="c">Eb</span>               <span className="c">F</span>       <span className="c">Eb</span>         <span className="c">F</span>  <span className="c">Gm</span> </span>
+      <span>Hep savaş hep yıkım ateşler içinde</span>
+      <span></span>
+      <span><span className="c">Gm</span>             <span className="c">F</span>                 <span className="c">Eb</span>       <span className="c">F</span>           <span className="c">Gm</span>        </span>
+      <span>Mavi mavi gözlerinde hep sitem mi var        </span>
+      <span><span className="c">Gm</span>                <span className="c">F</span>               <span className="c">Eb</span>       <span className="c">F</span>        <span className="c">Gm</span>        </span>
+      <span>Yoksa insan sevdiğine böyle mi bakar         </span>
+      <span><span className="c">Gm</span>             <span className="c">F</span>                 <span className="c">Eb</span>       <span className="c">F</span>           <span className="c">Gm</span>         </span>
+      <span>Mavi mavi gözlerinde top tüfek mi var       </span>
+      <span><span className="c">Gm</span>                 <span className="c">F</span>                    <span className="c">Eb</span>       <span className="c">F</span>      <span className="c">Gm</span>        </span>
+      <span>Böyle haksız bir savaştan kim galip çıkar   </span>
+      <span></span>
+      <span></span>
+      <span><span className="c">Eb</span>                       <span className="c">F</span>                 <span className="c">Eb</span>  <span className="c">F</span>    <span className="c">Gm</span> </span>
+      <span>Bir demet beyaz karanfil ne işe yarar</span></pre>)
+  },
+  {
+    "id": 20,
+    "artist": "Haluk Levent",
+    "title": "Aşkın Mapushane",
+    "chordsHTML": (<pre data-key="Cm" className="chords" id="key"><span><span className="c">Cm</span>              <span className="c">Bb</span>       <span className="c">Cm</span></span>
+      <span>Keşke seni tanımamış    </span>
+      <span><span className="c">Eb</span>                <span className="c">Bb</span>             <span className="c">Cm</span></span>
+      <span>Keşke sevmemiş olsaydım</span>
+      <span><span className="c">Ab</span>             <span className="c">Cm</span>        <span className="c">Bb</span>     </span>
+      <span>Zincire vurulmuş gibi  </span>
+      <span><span className="c">Cm</span>        <span className="c">Bb</span>      <span className="c">Ab</span>     <span className="c">Cm</span>  </span>
+      <span>Sana bağlı kalmasaydım    </span>
+      <span>  </span>
+      <span><span className="c">Cm</span>                   </span>
+      <span>Aşkın mapushane       </span>
+      <span>           <span className="c">Bb</span>             </span>
+      <span>İçinde ben mahkum      </span>
+      <span>                     </span>
+      <span>Saçların parmaklık      </span>
+      <span><span className="c">Ab</span>            <span className="c">Bb</span>     <span className="c">Ab</span>      <span className="c">Cm</span></span>
+      <span>Gözlerin gardiyan olmuş</span>
+      <span></span>
+      <span><span className="c">G</span>        <span className="c">Ab</span>      <span className="c">Bb</span>       <span className="c">Cm</span>    </span>
+      <span>İçinde ben ziyan oldum  </span>
+      <span></span>
+      <span><span className="c">Cm</span>               <span className="c">Bb</span>        <span className="c">Cm</span></span>
+      <span>Alın yazımda varmışsın</span>
+      <span><span className="c">Eb</span>                <span className="c">Bb</span>           <span className="c">Cm</span></span>
+      <span>Kalbimi benden çalmışsın</span>
+      <span><span className="c">Ab</span>                    <span className="c">Cm</span>        <span className="c">Bb</span></span>
+      <span>Sensizliğe bir duman gibi</span>
+      <span><span className="c">Cm</span>     <span className="c">Bb</span>         <span className="c">Ab</span>        <span className="c">Cm</span>   </span>
+      <span>Sigaranda beni yakmışsın</span></pre>),
+  },
+  {
+    "id": 21,
+    "artist": "Duman",
+    "title": "Öyle Dertli",
+    "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span>       </span>
+      <span>Kanar gibi yaramı dağlarım </span>
+      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
+      <span>Yanar içim yine de saklarım </span>
+      <span><span className="c">Dm</span>        <span className="c">C</span>      <span className="c">Gm</span>         <span className="c">C</span>         <span className="c">Bb</span>       <span className="c">A</span>         <span className="c">Dm</span>  </span>
+      <span>Geçmez sözün bir bana geçmez gücün yetmez </span>
+      <span></span>
+      <span><span className="c">Dm</span>    <span className="c">Gm</span>    <span className="c">Bb</span>    <span className="c">F</span> </span>
+      <span></span>
+      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
+      <span>Koşar gibi ölüme atlarım </span>
+      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
+      <span>Ezip geçer yine de kalkarım </span>
+      <span><span className="c">Dm</span>    <span className="c">C</span>        <span className="c">Gm</span>      <span className="c">C</span>                  <span className="c">Bb</span></span>
+      <span>Yetmez gücün bir bana yetmez </span>
+      <span><span className="c">A</span>              <span className="c">Dm</span>  <span className="c">C</span> <span className="c">Bb</span> <span className="c">A</span>      <span className="c">Dm</span>   </span>
+      <span>Sözün geçmez gücün yetmez </span>
+      <span></span>
+      <span><span className="c">Bb</span>    <span className="c">C</span>     <span className="c">Gm</span>     <span className="c">Bb</span>     <span className="c">A</span>     <span className="c">Dbm</span>  </span>
+      <span></span>
+      <span><span className="c">Dm</span>                <span className="c">C</span>        <span className="c">Gm</span>       <span className="c">Am</span>         <span className="c">Gm</span>       <span className="c">Am</span>      <span className="c">Gm</span></span>
+      <span>Öyle dertli dertli bakma gören olmaz, gören olmaz</span>
+      <span><span className="c">Dm</span>                  <span className="c">C</span>         <span className="c">Gm</span>     <span className="c">Am</span>       <span className="c">Gm</span>       <span className="c">Am</span>        <span className="c">Gm</span>   </span>
+      <span>Kalbinden söyler ama duyan olmaz , duyan olmaz </span>
+      <span></span>
+      <span><span className="c">Dm</span>    <span className="c">Gm</span>    <span className="c">Bb</span>    <span className="c">F</span> </span>
+      <span></span>
+      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
+      <span>Kaçar gibi geriye bakmadım </span>
+      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
+      <span>Akıp gider içime gözyaşım </span>
+      <span><span className="c">Dm</span>    <span className="c">C</span>        <span className="c">Gm</span>      <span className="c">C</span>                  <span className="c">Bb</span></span>
+      <span>Yetmez gücün bir bana yetmez </span>
+      <span><span className="c">A</span>              <span className="c">Dm</span> <span className="c">C</span> <span className="c">Bb</span> <span className="c">A</span>      <span className="c">Dm</span>   </span>
+      <span>Sözün geçmez gücün yetmez  </span>
+      <span></span>
+      <span><span className="c">Bb</span>    <span className="c">C</span>     <span className="c">Gm</span>     <span className="c">Bb</span>     <span className="c">A</span>     <span className="c">Dbm</span>  </span>
+      <span></span>
+      <span><span className="c">Dm</span>                <span className="c">C</span>        <span className="c">Gm</span>       <span className="c">Am</span>         <span className="c">Gm</span>       <span className="c">Am</span>      <span className="c">Gm</span></span>
+      <span>Öyle dertli dertli bakma gören olmaz, gören olmaz</span>
+      <span><span className="c">Dm</span>                  <span className="c">C</span>         <span className="c">Gm</span>     <span className="c">Am</span>       <span className="c">Gm</span>       <span className="c">Am</span>        <span className="c">Gm</span>   </span>
+      <span>Kalbinden söyler ama duyan olmaz , duyan olmaz</span></pre>)
+  },
+  {
+    "id": 22,
+    "artist": "Duman",
+    "title": "Her Şeyi Yak",
+    "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span>Intro:</span>
+      <span><span className="c">Dm</span>    <span className="c">C</span>    <span className="c">Bb</span>    <span className="c">Dm</span> </span>
+      <span></span>
+      <span><span className="c">Dm</span>                                <span className="c">C</span>     <span className="c">Bb</span>  </span>
+      <span>Beni yak kendini yak her şeyi yak</span>
+      <span><span className="c">Dm</span>                               <span className="c">C</span>     <span className="c">Bb</span></span>
+      <span>Bir kıvılcım yeter ben hazırım bak</span>
+      <span><span className="c">A</span>                       <span className="c">Bb</span></span>
+      <span>İster öp okşa istersen öldür</span>
+      <span><span className="c">Gm</span>                              <span className="c">A</span>       </span>
+      <span>Aşk için ölmeli aşk o zaman aşk</span>
+      <span><span className="c">Gm</span>                           <span className="c">Bb</span>        <span className="c">Dm</span></span>
+      <span>Aşk için ölmeli aşk o zaman aşk</span>
+      <span>   </span>
+      <span><span className="c">Dm</span>                             <span className="c">C</span>   <span className="c">Bb</span></span>
+      <span>Seni içime çektim bir nefeste</span>
+      <span><span className="c">Dm</span>                              <span className="c">C</span>         <span className="c">Bb</span></span>
+      <span>Yüreğim tutuklu göğsüm kafeste</span>
+      <span><span className="c">A</span>                          <span className="c">Bb</span></span>
+      <span>Yanacağız ikimiz de ateşte</span>
+      <span><span className="c">Gm</span>                          <span className="c">A</span></span>
+      <span>Bir kıvılcım yeter hazırım bak</span>
+      <span><span className="c">Gm</span>                            <span className="c">Bb</span>         <span className="c">Dm</span></span>
+      <span>Aşk için ölmeli aşk o zaman aşk</span>
+      <span> </span>
+      <span><span className="c">Dm</span>  <span className="c">Gm</span>  <span className="c">Bb</span>    <span className="c">A</span>  <span className="c">Gm</span>             <span className="c">Dm</span>                        </span>
+      <span>Allah ım Allah ım ateşlere yürüyorum</span>
+      <span><span className="c">Dm</span>    <span className="c">Gm</span> <span className="c">Bb</span>   <span className="c">A</span>  <span className="c">Gm</span>             <span className="c">Dm</span></span>
+      <span>Allah ım acı ile aşk ile büyüyorum</span>
+      <span></span>
+      <span><span className="c">Dm</span>                               <span className="c">C</span>      <span className="c">Bb</span></span>
+      <span>Beni yor hasretinle sevginle yor</span>
+      <span><span className="c">Dm</span>                            <span className="c">C</span>  <span className="c">Bb</span></span>
+      <span>Sevgisizlik ayrılıktan daha zor</span>
+      <span><span className="c">A</span>                      <span className="c">Bb</span></span>
+      <span>Dilediğin kadar acıt canımı</span>
+      <span><span className="c">Gm</span>                           <span className="c">A</span></span>
+      <span>Varlığın da yokluğun da yetmiyor  </span>
+      <span><span className="c">Gm</span>                            <span className="c">Bb</span></span>
+      <span>Varlığın da yokluğun da yetmiyor</span></pre>)
+  },
+  {
+    "id": 23,
+    "artist": "Duman",
+    "title": "Eski Köprünün Altında",
+    "chordsHTML": (<pre data-key="F#m" className="chords" id="key"><span>Intro:</span>
+      <span><span className="c">E</span>   <span className="c">A</span>   <span className="c">E</span>   <span className="c">A</span>   <span className="c">E</span>  <span className="c">A</span>   <span className="c">E</span>   </span>
+      <span></span>
+      <span><span className="c">E</span>                                                                               <span className="c">E</span>   <span className="c">A</span>   <span className="c">E</span>   <span className="c">A</span>   <span className="c">E</span>  <span className="c">A</span>   <span className="c">E</span> </span>
+      <span>Denizler aştım geliyorum bilirsin derdim seninle</span>
+      <span><span className="c">E</span>                                                                                          <span className="c">E</span>   <span className="c">A</span>   <span className="c">E</span>   <span className="c">A</span>   <span className="c">E</span>  <span className="c">A</span>   <span className="c">E</span> </span>
+      <span>Yolumdan döndüm kopuyorum bilirsin derdim seninle</span>
+      <span></span>
+      <span><span className="c">D</span>                 <span className="c">Db</span>            <span className="c">F#m</span>             <span className="c">Bm</span>            <span className="c">D</span>           </span>
+      <span>Denizler aştım geliyorum ister eğlen benimle</span>
+      <span>                     <span className="c">Db</span>                 <span className="c">F#m</span>   <span className="c">Abm</span> <span className="c">A</span>  <span className="c">Bm</span></span>
+      <span>Yüzünü bir görsem yeter</span>
+      <span><span className="c">D</span>             <span className="c">Db</span>            <span className="c">F#m</span>           <span className="c">Bm</span>                 <span className="c">D</span>           </span>
+      <span>Yolumuz ayrı biliyorum ölmeden son bir defa</span>
+      <span>                 <span className="c">Db</span>           <span className="c">F#m</span>   <span className="c">Abm</span> <span className="c">A</span>  <span className="c">Bm</span></span>
+      <span>Belini kavrasam yeter</span>
+      <span></span>
+      <span><span className="c">D</span>      <span className="c">Db</span>          <span className="c">F#m</span>           <span className="c">Bm</span>                 <span className="c">D</span>           </span>
+      <span>Hadi gel buluşalım eski köprünün altında</span>
+      <span>         <span className="c">Db</span>             <span className="c">F#m</span>   <span className="c">Abm</span> <span className="c">A</span>  <span className="c">Bm</span></span>
+      <span>Kimseler görmesin</span>
+      <span><span className="c">D</span>       <span className="c">Db</span>                   <span className="c">F#m</span>           <span className="c">Bm</span>                  <span className="c">D</span>           </span>
+      <span>Mehtaba karşı uzanalım eski köprünün altında</span>
+      <span>          <span className="c">Db</span>                 <span className="c">F#m</span>   <span className="c">Abm</span> <span className="c">A</span>  <span className="c">Bm</span></span>
+      <span>Kimseler bilmesin</span>
+      <span>          <span className="c">Ab</span>             <span className="c">Db</span>      <span className="c">Bm</span></span>
+      <span>Kimseler duymasın</span></pre>)
+  },
+  {
+    "id": 24,
+    "artist": "Duman",
+    "title": "Bu Akşam",
+    "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span>İntro:</span>
+      <span><span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>  <span className="c">Em</span>  <span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>   <span className="c">A</span></span>
+      <span><span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>  <span className="c">Em</span>  <span className="c">G</span>   <span className="c">A</span>  <span className="c">Bm</span>  <span className="c">Bm</span>    </span>
+      <span></span>
+      <span><span className="c">Bm</span>           <span className="c">G</span>            <span className="c">A</span>        <span className="c">Em</span></span>
+      <span>Kendime geldim geleli dostlar</span>
+      <span><span className="c">Bm</span>            <span className="c">G</span>             <span className="c">A</span></span>
+      <span>Olamam kimseye düşman</span>
+      <span><span className="c">Bm</span>                 <span className="c">G</span>     <span className="c">A</span>            <span className="c">Em</span></span>
+      <span>Hiç şüphem yok kefenim sağlam</span>
+      <span><span className="c">G</span>           <span className="c">A</span>    <span className="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span></span>
+      <span><span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>  <span className="c">Em</span>  <span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>   <span className="c">A</span></span>
+      <span><span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>  <span className="c">Em</span>  <span className="c">G</span>   <span className="c">A</span>  <span className="c">Bm</span>  <span className="c">Bm</span>    </span>
+      <span></span>
+      <span><span className="c">Bm</span>        <span className="c">G</span>            <span className="c">A</span>          <span className="c">Em</span> </span>
+      <span>Sesleri duydum duyalı dostlar</span>
+      <span><span className="c">Bm</span>   <span className="c">G</span>          <span className="c">A</span></span>
+      <span>Yola çıktım yeni baştan</span>
+      <span><span className="c">Bm</span>        <span className="c">G</span>      <span className="c">A</span>             <span className="c">Em</span></span>
+      <span>Acelem yok hedefim sağlam     </span>
+      <span><span className="c">G</span>           <span className="c">A</span>     <span className="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span className="c">G</span>           <span className="c">A</span>    <span className="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span className="c">G</span>             <span className="c">A</span></span>
+      <span>İçerim ben</span>
+      <span></span>
+      <span>                     <span className="c">Bm</span>    <span className="c">G</span>  <span className="c">Em</span></span>
+      <span>Ben burda bu akşam   </span>
+      <span><span className="c">F#</span>               <span className="c">Bm</span>    <span className="c">G</span>  <span className="c">Em</span></span>
+      <span>Ben burda bu akşam</span>
+      <span><span className="c">F#</span>                 <span className="c">Bm</span>    <span className="c">G</span>  <span className="c">Em</span></span>
+      <span>Ben burda bu akşam</span>
+      <span><span className="c">F#</span>               <span className="c">G</span>        <span className="c">A</span>    </span>
+      <span>Ben burda bu akşam, içerim ben    </span>
+      <span></span>
+      <span><span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>  <span className="c">Em</span>  <span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>   <span className="c">A</span></span>
+      <span><span className="c">Bm</span>  <span className="c">G</span>  <span className="c">A</span>  <span className="c">Em</span>  <span className="c">G</span>   <span className="c">A</span>  <span className="c">Bm</span>  <span className="c">Bm</span>    </span>
+      <span></span>
+      <span><span className="c">Bm</span>       <span className="c">G</span>             <span className="c">A</span>      <span className="c">Em</span></span>
+      <span>Sizleri gördüm göreli dostlar</span>
+      <span><span className="c">Bm</span>          <span className="c">G</span>           <span className="c">A</span></span>
+      <span>Hemen hergün bana bayram</span>
+      <span><span className="c">Bm</span>         <span className="c">G</span>     <span className="c">A</span>             <span className="c">Em</span></span>
+      <span>Yarınım yok sevenim sağlam</span>
+      <span><span className="c">G</span>           <span className="c">A</span>     <span className="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span className="c">G</span>           <span className="c">A</span>    <span className="c">Bm</span></span>
+      <span>İçerim ben bu akşam</span>
+      <span><span className="c">G</span>             <span className="c">A</span></span>
+      <span>İçerim ben</span>
+      <span></span>
+      <span>N</span></pre>)
+  },
+  {
+    "id": 25,
+    "artist": "Piiz",
+    "title": "Vazgeç Gönül",
+    "chordsHTML": (<pre data-key="F#m" className="chords" id="key"><span>Intro:</span>
+      <span><span className="c">F#m</span>   <span className="c">E</span>    <span className="c">D</span>    <span className="c">Bm</span>    <span className="c">F#m</span>   <span className="c">G#</span>    <span className="c">D</span>    <span className="c">G#</span>   <span className="c">F#m</span>   <span className="c">Bm</span>   <span className="c">C#</span></span>
+      <span></span>
+      <span><span className="c">F#m</span>             <span className="c">E</span>     </span>
+      <span>Neyleyim doğan günü</span>
+      <span><span className="c">D</span>                      <span className="c">Bm</span>   <span className="c">C#</span></span>
+      <span>Neyleyim sensiz günü</span>
+      <span><span className="c">F#m</span>          <span className="c">E</span>              <span className="c">D</span>                     <span className="c">Bm</span>     <span className="c">C#</span></span>
+      <span>Geceler çoğalırken aydınlık kar getirmezki </span>
+      <span><span className="c">F#m</span>     <span className="c">E</span></span>
+      <span>Sevda bahçesinde </span>
+      <span><span className="c">D</span>                    <span className="c">Bm</span>        <span className="c">C#</span></span>
+      <span>Kurutulmuş bir gül idim</span>
+      <span><span className="c">F#m</span>            <span className="c">E</span>                     <span className="c">Bm</span>       <span className="c">C#</span>     <span className="c">F#m</span>       </span>
+      <span>Beni sakla bir ömür sev diye diye ölendim</span>
+      <span></span>
+      <span>               <span className="c">F#m</span></span>
+      <span>Vazgeç gönül </span>
+      <span>                     <span className="c">E</span> <span className="c">Bm</span>  <span className="c">F#m</span></span>
+      <span>Vazgeç sesini duyan yok </span>
+      <span><span className="c">E</span>                 <span className="c">Bm</span>       <span className="c">E</span></span>
+      <span>Bir yağmurun içinde</span>
+      <span>              <span className="c">A</span>             <span className="c">D</span></span>
+      <span>Ateş böceği misali</span>
+      <span>         <span className="c">A</span>      <span className="c">Bm</span>     <span className="c">C#</span></span>
+      <span>Bir yanıp bir söndün</span>
+      <span></span>
+      <span>                <span className="c">F#m</span></span>
+      <span>Vazgeç gönül </span>
+      <span>                     <span className="c">E</span> <span className="c">Bm</span>  <span className="c">F#m</span></span>
+      <span>Vazgeç seni anlayan yok </span>
+      <span><span className="c">E</span>                 <span className="c">Bm</span>       <span className="c">E</span></span>
+      <span>Bir yağmurun içinde</span>
+      <span>              <span className="c">A</span>             <span className="c">D</span></span>
+      <span>Ateş böceği misali</span>
+      <span>         <span className="c">A</span>      <span className="c">Bm</span>     <span className="c">C#</span></span>
+      <span>Bir yanıp bir söndün</span></pre>)
+  },
+  {
+    "id": 26,
+    "artist": "Barış Manço (Selim Işık Versiyonu)",
+    "title": "Gülpembe",
+    "soloTab": "/tabs/gülpembe.png",
+    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>                 <span className="c">Am</span></span>
+      <span>Sen gülünce güller açar Gülpembe</span>
+      <span><span className="c">Em</span>                                 <span className="c">D</span>             <span className="c">G</span>     <span className="c">F</span>        <span className="c">Em</span></span>
+      <span>Bülbüller seni söyler, biz dinlerdik Gülpembe</span>
+      <span>                      <span className="c">Am</span></span>
+      <span>Sen gelince bahar gelir Gülpembe</span>
+      <span><span className="c">Em</span>                              <span className="c">D</span>         <span className="c">G</span>    <span className="c">F</span>         <span className="c">Em</span></span>
+      <span>Dereler seni çaglar, sevinirdik Gülpembe</span>
+      <span></span>
+      <span><span className="c">D</span>                                     <span className="c">Em</span></span>
+      <span>Güz yağmurlarıyla, birgün göçtün gittin</span>
+      <span><span className="c">D</span>                                <span className="c">Em</span></span>
+      <span>İnanamadik Gülpembe</span>
+      <span><span className="c">D</span>                             <span className="c">Em</span></span>
+      <span>Bizim iller sessiz, bizim iller sensiz</span>
+      <span><span className="c">D</span>                          <span className="c">Em</span></span>
+      <span>Olamadı Gülpembe</span>
+      <span></span>
+      <span><span className="c">Em</span>                 <span className="c">Am</span></span>
+      <span>Dudağımda son bir türkü Gülpembe</span>
+      <span><span className="c">Em</span>                                 <span className="c">D</span>            <span className="c">G</span>     <span className="c">F</span>       <span className="c">Em</span></span>
+      <span>Hala hep seni söyler, seni çağırır Gülpembe</span>
+      <span></span>
+      <span>N</span>
+      <span></span>
+      <span><span className="c">Em</span>                 <span className="c">Am</span></span>
+      <span>Dudağımda son bir türkü Gülpembe</span>
+      <span><span className="c">Em</span>                                 <span className="c">D</span>            <span className="c">G</span>     <span className="c">F</span>       <span className="c">Em</span></span>
+      <span>Hala hep seni söyler, seni çağırır Gülpembe</span>
+      <span><span className="c">Em</span>                 <span className="c">Am</span></span>
+      <span>Gözlerimde son bir umut Gülpembe</span>
+      <span><span className="c">Em</span>                              <span className="c">D</span>            <span className="c">G</span>     <span className="c">F</span>       <span className="c">Em</span></span>
+      <span>Hala hep seni arar, seni bekler Gülpembe</span></pre>)
+  },
+  {
+    "id": 27,
+    "artist": "Mor ve Ötesi",
+    "title": "Sevda Çiçeği",
+    "chordsHTML": (<pre data-key="D" className="chords" id="key"><span><span className="c">E5</span>           <span className="c">A#5</span>        <span className="c">B5</span>              <span className="c">E5</span>     </span>
+      <span>Sessiz sedasız açardın gecelerde</span>
+      <span><span className="c">E5</span>            <span className="c">A#5</span>         <span className="c">B5</span>                   <span className="c">E5</span>       </span>
+      <span>Kimse bilemez, göremez kuytularda</span>
+      <span><span className="c">E5</span>                 <span className="c">G5</span>              <span className="c">A5</span>                  <span className="c">E5</span></span>
+      <span>Sonsuz ve dipsiz sevdalarda, duygularda</span>
+      <span><span className="c">E5</span>              <span className="c">F#</span>             <span className="c">G5</span>               <span className="c">E5</span></span>
+      <span>Sakin, kimsesiz ve sahipsiz uykularımda  </span>
+      <span></span>
+      <span><span className="c">E5</span>  <span className="c">F#5</span>  <span className="c">G5</span>  <span className="c">A5</span>         <span className="c">B5</span>               <span className="c">E5</span>                                          </span>
+      <span>Şimdi      artık   seni koklar yalnızlığım   </span>
+      <span><span className="c">E5</span>      <span className="c">B</span>     <span className="c">C#5</span>    <span className="c">G</span>        <span className="c">B5</span>              <span className="c">E5</span></span>
+      <span>Seni arar seni sorar sevda çiçeğim      x2</span></pre>)
+  },
+  {
+    "id": 28,
+    "artist": "Mor ve Ötesi",
+    "title": "Cambaz",
+    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>             <span className="c">Eb</span>                      <span className="c">D</span>                 <span className="c">Db</span>                      <span className="c">C</span>  <span className="c">G#</span></span>
+      <span>Ne habersin ne türksün, seni gören yollara dökülsün</span>
+      <span><span className="c">Em</span>            <span className="c">Eb</span>                 <span className="c">D</span>                <span className="c">Db</span>                     <span className="c">C</span>  <span className="c">G#</span></span>
+      <span>Kul oldun köle oldun, kurşun geçirmez cam oldun</span>
+      <span></span>
+      <span>                <span className="c">Am</span>                  <span className="c">D</span>                    <span className="c">G</span>                 <span className="c">C</span></span>
+      <span>Bütün dünya izler durur, afet-i azam bekler durur</span>
+      <span>             <span className="c">Am</span>                 <span className="c">B</span>               <span className="c">Em</span>  <span className="c">E</span></span>
+      <span>Hedefini al, piyasanı al, her şeyi al</span>
+      <span>                <span className="c">Am</span>              <span className="c">D</span>                       <span className="c">G</span>                     <span className="c">C</span></span>
+      <span>Yandı dertler bitti tasa, ben kurbanım bu cambaza</span>
+      <span>          <span className="c">Am</span>                       <span className="c">B</span>                <span className="c">Em</span></span>
+      <span>İki gözüm kadar eminim sen yoksun</span></pre>)
+  },
+  {
+    "id": 29,
+    "artist": "Mor ve Ötesi",
+    "title": "Deli",
+    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span>             <span className="c">Em</span>                <span className="c">F#</span> </span>
+      <span>Aranıyor sahibi ruhumun</span>
+      <span><span className="c">G</span>                          <span className="c">B</span></span>
+      <span>Tam yerine mi düştüm</span>
+      <span>          <span className="c">C</span>               <span className="c">B</span></span>
+      <span>Direniyor faili tutkunun</span>
+      <span><span className="c">C</span>                       <span className="c">F#</span></span>
+      <span>Kızmış ve küçülmüş         </span>
+      <span></span>
+      <span>             <span className="c">Em</span>                <span className="c">F#</span> </span>
+      <span>Aranıyor sahibi ruhumun</span>
+      <span><span className="c">G</span>                          <span className="c">B</span></span>
+      <span>Tam yerine mi düştüm</span>
+      <span>             <span className="c">C</span>             <span className="c">B</span>           <span className="c">C</span>    <span className="c">C#m</span> </span>
+      <span>Direniyor direniyor direniyor            </span>
+      <span></span>
+      <span><span className="c">B</span>                 <span className="c">Em</span>           <span className="c">Am</span></span>
+      <span>Beni büyütün, ağlatmayın</span>
+      <span>                  <span className="c">D</span>        <span className="c">C</span>         <span className="c">B</span></span>
+      <span>Sevginiz nerde övündüğünüz</span>
+      <span>                     <span className="c">Em</span>           <span className="c">Am</span></span>
+      <span>Beni büyütün, ağlatmayın</span>
+      <span>                    <span className="c">D</span>     <span className="c">C</span>         <span className="c">Em</span> </span>
+      <span>Sahte düşlerle oyalamayın</span>
+      <span></span>
+      <span>N   </span>
+      <span></span>
+      <span><span className="c">Em</span>                      <span className="c">G</span>           <span className="c">A</span>     </span>
+      <span>Bir yarım akıllı bir yarım deli</span>
+      <span><span className="c">C</span>                                              <span className="c">B</span></span>
+      <span>Dört yanım akıllı bir yanım deli</span>
+      <span><span className="c">Em</span>                  <span className="c">G</span>            <span className="c">A</span></span>
+      <span>Herkes akıllı bir ben deli</span>
+      <span>                <span className="c">C</span>                       <span className="c">B</span></span>
+      <span>Bir ben deli bir ben deli</span></pre>)
+  },
+  {
+    "id": 30,
+    "artist": "Mor ve Ötesi",
+    "soloTab": "/tabs/aşk_içinde.png",
+    "title": "Aşk İçinde",
+    "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span><span className="c">Bm</span>         <span className="c">A</span>         <span className="c">G</span>          <span className="c">F#</span></span>
+      <span>Bugün varsın  yarın yoksun</span>
+      <span><span className="c">Bm</span>           <span className="c">A</span>       <span className="c">G</span>        <span className="c">F#</span></span>
+      <span>Kocaman bir  çığlık olsun</span>
+      <span><span className="c">Bm</span>           <span className="c">A</span>         <span className="c">G</span>      <span className="c">F#</span></span>
+      <span>Benim derdim senin olsun</span>
+      <span><span className="c">Bm</span>      <span className="c">A</span>        <span className="c">G</span>          <span className="c">F#</span></span>
+      <span>Bilen bilsin duyan duysun    </span>
+      <span></span>
+      <span><span className="c">G</span>        <span className="c">F#</span>       <span className="c">Bm</span>        <span className="c">G</span></span>
+      <span>Aşk içinde yalan içinde </span>
+      <span>               <span className="c">F#</span>       <span className="c">Bm</span>       </span>
+      <span>Tek bir ayna  binbir biçimde</span>
+      <span><span className="c">G</span>         <span className="c">F#</span>    <span className="c">Bm</span>              <span className="c">G</span></span>
+      <span>Aşk içinde yalan içinde</span>
+      <span>              <span className="c">F#</span>         <span className="c">Bm</span>        </span>
+      <span>Hepsi aynı hepsi içinde</span>
+      <span></span>
+      <span><span className="c">Bm</span>      <span className="c">A</span>         <span className="c">G</span>      <span className="c">F#</span></span>
+      <span>Belki varsın belki yoksun</span>
+      <span><span className="c">Bm</span>         <span className="c">A</span>     <span className="c">G</span>       <span className="c">F#</span></span>
+      <span>Bihabersin belki toksun</span>
+      <span><span className="c">Bm</span>          <span className="c">A</span>      <span className="c">G</span>     <span className="c">F#</span></span>
+      <span>Gelecekler yüzlerinde</span>
+      <span><span className="c">Bm</span>           <span className="c">A</span>      <span className="c">G</span>      <span className="c">F#</span></span>
+      <span>Cam gibi bir büyük öfke</span></pre>)
+  },
+  {
+    "id": 31,
+    "artist": "Cem Karaca",
+    "title": "Kerkük Zindanı",
+    "chordsHTML": (
+      <pre data-key="Am" className="chords" id="key"><span><span className="c">Em</span>                                                 <span className="c">F</span>  <span className="c">Em</span> <span className="c">Dm</span> <span className="c">F</span>  <span className="c">Em</span></span>
+        <span>Kerküğün zindanına attılar beni </span>
+        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
+        <span>Kerküğün zindanına attılar beni </span>
+        <span><span className="c">Am</span>                               <span className="c">G</span>           <span className="c">Em</span>    <span className="c">G</span>     <span className="c">F7</span>   <span className="c">Em</span></span>
+        <span>Mazlumlar sürüsüne kattılar beni, kattılar beni</span>
+        <span></span>
+        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
+        <span>Bir yanım dağladılar ateşle annem </span>
+        <span><span className="c">Am</span>                                    <span className="c">G</span>           <span className="c">Em</span>    <span className="c">G</span>     <span className="c">F7</span>   <span className="c">Em</span></span>
+        <span>Ne suçum ne günahım yaktılar beni, yaktılar beni</span>
+        <span></span>
+        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
+        <span>Türkmen obalarından göçen anneler </span>
+        <span><span className="c">Am</span>                            <span className="c">G</span>        <span className="c">Em</span>          <span className="c">G</span>        <span className="c">F7</span>   <span className="c">Em</span></span>
+        <span>Ne yuvaları kalmış ne de haneler, ne de haneler</span>
+        <span></span>
+        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
+        <span>Gök kubbeyi sarsar mazlum feryadım </span>
+        <span><span className="c">Am</span>                               <span className="c">G</span>      <span className="c">Em</span>          <span className="c">G</span>        <span className="c">F7</span>   <span className="c">Em</span></span>
+        <span>Elbette bir gün güler bize seneler, bize de seneler</span></pre>
+    )
+  },
+  {
+    "id": 32,
     "artist": "Yüksek Sadakat",
     "title": "Haydi Gel İçelim",
     "soloTab": "/tabs/haydi_gel_içelim.png",
@@ -561,7 +1313,7 @@ export const songs = [
       <span>Yerlere düşelim</span></pre>)
   },
   {
-    "id": 13,
+    "id": 33,
     "artist": "Yüksek Sadakat",
     "title": "Ben Seni Arayamam",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>   <span className="c">Bb</span>         <span className="c">F</span>       <span className="c">C</span></span>
@@ -609,771 +1361,97 @@ export const songs = [
       <span><span className="c">Dm</span>   <span className="c">Bb</span>        <span className="c">A</span></span>
       <span>Ben seni arayamam</span></pre>)
   },
+  // {
+  //   "id": 19,
+  //   "artist": "Cem Karaca",
+  //   "title": "Resimdeki Gözyaşları",
+  //   "chordsHTML": (
+  //     <pre data-key="Am" className="chords" id="key"><span><span className="c">Am</span></span>
+  //       <span>Birgün belki hayattan</span>
+  //       <span>                              <span className="c">Dm</span></span>
+  //       <span>Geçmişteki günlerden</span>
+  //       <span>                         <span className="c">B</span>   </span>
+  //       <span>Bir teselli ararsın</span>
+  //       <span>                                  <span className="c">E</span></span>
+  //       <span>Bak o zaman resmime</span>
+  //       <span>                         <span className="c">Am</span>    <span className="c">Dm</span>   <span className="c">Am</span>   <span className="c">Dm</span></span>
+  //       <span>Gör akan o yaşları                   </span>
+  //       <span></span>
+  //       <span><span className="c">Am</span></span>
+  //       <span>Benden sana son kalan</span>
+  //       <span>                                <span className="c">Dm</span>                  </span>
+  //       <span>Bir küçük resim şimdi</span>
+  //       <span>                                <span className="c">B</span>   </span>
+  //       <span>Cevap veremez ama</span>
+  //       <span>                          <span className="c">E</span></span>
+  //       <span>Ağlar yalnızlığına    </span>
+  //       <span></span>
+  //       <span><span className="c">Dm</span>        <span className="c">Am</span></span>
+  //       <span>Ve işte arta kalan</span>
+  //       <span><span className="c">E</span>                       <span className="c">Am</span>  </span>
+  //       <span>Bir avuç anı şimdi </span>
+  //       <span><span className="c">Dm</span>                      <span className="c">Am</span>         </span>
+  //       <span>Koyup da bir başına</span>
+  //       <span><span className="c">E</span>                            <span className="c">Am</span></span>
+  //       <span>Birakip gittin sen beni    </span>
+  //       <span></span>
+  //       <span><span className="c">Am</span></span>
+  //       <span>Birgün belki hayattan</span>
+  //       <span>                              <span className="c">Dm</span></span>
+  //       <span>Geçmişteki günlerden</span>
+  //       <span>                         <span className="c">B</span>   </span>
+  //       <span>Bir teselli ararsın</span>
+  //       <span>                                  <span className="c">E</span></span>
+  //       <span>Bak o zaman resmime</span>
+  //       <span></span>
+  //       <span><span className="c">Dm</span>                   <span className="c">Am</span></span>
+  //       <span>Sen yalnız değilsin</span>
+  //       <span><span className="c">E</span>                      <span className="c">Am</span>  </span>
+  //       <span>Biliyorum, nerdesin</span>
+  //       <span><span className="c">Dm</span>             <span className="c">Am</span></span>
+  //       <span>Bu üzerdi beni</span>
+  //       <span><span className="c">E</span>                                <span className="c">Am</span>      </span>
+  //       <span>Yaşasaydım ve görseydim</span></pre>
+  //   )
+  // },
+
+
   {
-    "id": 14,
-    "artist": "Duman",
-    "title": "Öyle Dertli",
-    "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span>       </span>
-      <span>Kanar gibi yaramı dağlarım </span>
-      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
-      <span>Yanar içim yine de saklarım </span>
-      <span><span className="c">Dm</span>        <span className="c">C</span>      <span className="c">Gm</span>         <span className="c">C</span>         <span className="c">Bb</span>       <span className="c">A</span>         <span className="c">Dm</span>  </span>
-      <span>Geçmez sözün bir bana geçmez gücün yetmez </span>
-      <span></span>
-      <span><span className="c">Dm</span>    <span className="c">Gm</span>    <span className="c">Bb</span>    <span className="c">F</span> </span>
-      <span></span>
-      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
-      <span>Koşar gibi ölüme atlarım </span>
-      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
-      <span>Ezip geçer yine de kalkarım </span>
-      <span><span className="c">Dm</span>    <span className="c">C</span>        <span className="c">Gm</span>      <span className="c">C</span>                  <span className="c">Bb</span></span>
-      <span>Yetmez gücün bir bana yetmez </span>
-      <span><span className="c">A</span>              <span className="c">Dm</span>  <span className="c">C</span> <span className="c">Bb</span> <span className="c">A</span>      <span className="c">Dm</span>   </span>
-      <span>Sözün geçmez gücün yetmez </span>
-      <span></span>
-      <span><span className="c">Bb</span>    <span className="c">C</span>     <span className="c">Gm</span>     <span className="c">Bb</span>     <span className="c">A</span>     <span className="c">Dbm</span>  </span>
-      <span></span>
-      <span><span className="c">Dm</span>                <span className="c">C</span>        <span className="c">Gm</span>       <span className="c">Am</span>         <span className="c">Gm</span>       <span className="c">Am</span>      <span className="c">Gm</span></span>
-      <span>Öyle dertli dertli bakma gören olmaz, gören olmaz</span>
-      <span><span className="c">Dm</span>                  <span className="c">C</span>         <span className="c">Gm</span>     <span className="c">Am</span>       <span className="c">Gm</span>       <span className="c">Am</span>        <span className="c">Gm</span>   </span>
-      <span>Kalbinden söyler ama duyan olmaz , duyan olmaz </span>
-      <span></span>
-      <span><span className="c">Dm</span>    <span className="c">Gm</span>    <span className="c">Bb</span>    <span className="c">F</span> </span>
-      <span></span>
-      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
-      <span>Kaçar gibi geriye bakmadım </span>
-      <span><span className="c">Dm</span>        <span className="c">C</span>     <span className="c">Gm</span>       <span className="c">C</span></span>
-      <span>Akıp gider içime gözyaşım </span>
-      <span><span className="c">Dm</span>    <span className="c">C</span>        <span className="c">Gm</span>      <span className="c">C</span>                  <span className="c">Bb</span></span>
-      <span>Yetmez gücün bir bana yetmez </span>
-      <span><span className="c">A</span>              <span className="c">Dm</span> <span className="c">C</span> <span className="c">Bb</span> <span className="c">A</span>      <span className="c">Dm</span>   </span>
-      <span>Sözün geçmez gücün yetmez  </span>
-      <span></span>
-      <span><span className="c">Bb</span>    <span className="c">C</span>     <span className="c">Gm</span>     <span className="c">Bb</span>     <span className="c">A</span>     <span className="c">Dbm</span>  </span>
-      <span></span>
-      <span><span className="c">Dm</span>                <span className="c">C</span>        <span className="c">Gm</span>       <span className="c">Am</span>         <span className="c">Gm</span>       <span className="c">Am</span>      <span className="c">Gm</span></span>
-      <span>Öyle dertli dertli bakma gören olmaz, gören olmaz</span>
-      <span><span className="c">Dm</span>                  <span className="c">C</span>         <span className="c">Gm</span>     <span className="c">Am</span>       <span className="c">Gm</span>       <span className="c">Am</span>        <span className="c">Gm</span>   </span>
-      <span>Kalbinden söyler ama duyan olmaz , duyan olmaz</span></pre>)
-  },
-  {
-    "id": 15,
-    "artist": "Duman",
-    "title": "Her Şeyi Yak",
-    "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span>Intro:</span>
-      <span><span className="c">Dm</span>    <span className="c">C</span>    <span className="c">Bb</span>    <span className="c">Dm</span> </span>
-      <span></span>
-      <span><span className="c">Dm</span>                                <span className="c">C</span>     <span className="c">Bb</span>  </span>
-      <span>Beni yak kendini yak her şeyi yak</span>
-      <span><span className="c">Dm</span>                               <span className="c">C</span>     <span className="c">Bb</span></span>
-      <span>Bir kıvılcım yeter ben hazırım bak</span>
-      <span><span className="c">A</span>                       <span className="c">Bb</span></span>
-      <span>İster öp okşa istersen öldür</span>
-      <span><span className="c">Gm</span>                              <span className="c">A</span>       </span>
-      <span>Aşk için ölmeli aşk o zaman aşk</span>
-      <span><span className="c">Gm</span>                           <span className="c">Bb</span>        <span className="c">Dm</span></span>
-      <span>Aşk için ölmeli aşk o zaman aşk</span>
-      <span>   </span>
-      <span><span className="c">Dm</span>                             <span className="c">C</span>   <span className="c">Bb</span></span>
-      <span>Seni içime çektim bir nefeste</span>
-      <span><span className="c">Dm</span>                              <span className="c">C</span>         <span className="c">Bb</span></span>
-      <span>Yüreğim tutuklu göğsüm kafeste</span>
-      <span><span className="c">A</span>                          <span className="c">Bb</span></span>
-      <span>Yanacağız ikimiz de ateşte</span>
-      <span><span className="c">Gm</span>                          <span className="c">A</span></span>
-      <span>Bir kıvılcım yeter hazırım bak</span>
-      <span><span className="c">Gm</span>                            <span className="c">Bb</span>         <span className="c">Dm</span></span>
-      <span>Aşk için ölmeli aşk o zaman aşk</span>
-      <span> </span>
-      <span><span className="c">Dm</span>  <span className="c">Gm</span>  <span className="c">Bb</span>    <span className="c">A</span>  <span className="c">Gm</span>             <span className="c">Dm</span>                        </span>
-      <span>Allah ım Allah ım ateşlere yürüyorum</span>
-      <span><span className="c">Dm</span>    <span className="c">Gm</span> <span className="c">Bb</span>   <span className="c">A</span>  <span className="c">Gm</span>             <span className="c">Dm</span></span>
-      <span>Allah ım acı ile aşk ile büyüyorum</span>
-      <span></span>
-      <span><span className="c">Dm</span>                               <span className="c">C</span>      <span className="c">Bb</span></span>
-      <span>Beni yor hasretinle sevginle yor</span>
-      <span><span className="c">Dm</span>                            <span className="c">C</span>  <span className="c">Bb</span></span>
-      <span>Sevgisizlik ayrılıktan daha zor</span>
-      <span><span className="c">A</span>                      <span className="c">Bb</span></span>
-      <span>Dilediğin kadar acıt canımı</span>
-      <span><span className="c">Gm</span>                           <span className="c">A</span></span>
-      <span>Varlığın da yokluğun da yetmiyor  </span>
-      <span><span className="c">Gm</span>                            <span className="c">Bb</span></span>
-      <span>Varlığın da yokluğun da yetmiyor</span></pre>)
-  },
-  {
-    "id": 16,
-    "artist": "Duman",
-    "title": "Eski Köprünün Altında",
-    "chordsHTML": (<pre data-key="F#m" class="chords" id="key"><span>Intro:</span>
-      <span><span class="c">E</span>   <span class="c">A</span>   <span class="c">E</span>   <span class="c">A</span>   <span class="c">E</span>  <span class="c">A</span>   <span class="c">E</span>   </span>
-      <span></span>
-      <span><span class="c">E</span>                                                                               <span class="c">E</span>   <span class="c">A</span>   <span class="c">E</span>   <span class="c">A</span>   <span class="c">E</span>  <span class="c">A</span>   <span class="c">E</span> </span>
-      <span>Denizler aştım geliyorum bilirsin derdim seninle</span>
-      <span><span class="c">E</span>                                                                                          <span class="c">E</span>   <span class="c">A</span>   <span class="c">E</span>   <span class="c">A</span>   <span class="c">E</span>  <span class="c">A</span>   <span class="c">E</span> </span>
-      <span>Yolumdan döndüm kopuyorum bilirsin derdim seninle</span>
-      <span></span>
-      <span><span class="c">D</span>                 <span class="c">Db</span>            <span class="c">F#m</span>             <span class="c">Bm</span>            <span class="c">D</span>           </span>
-      <span>Denizler aştım geliyorum ister eğlen benimle</span>
-      <span>                     <span class="c">Db</span>                 <span class="c">F#m</span>   <span class="c">Abm</span> <span class="c">A</span>  <span class="c">Bm</span></span>
-      <span>Yüzünü bir görsem yeter</span>
-      <span><span class="c">D</span>             <span class="c">Db</span>            <span class="c">F#m</span>           <span class="c">Bm</span>                 <span class="c">D</span>           </span>
-      <span>Yolumuz ayrı biliyorum ölmeden son bir defa</span>
-      <span>                 <span class="c">Db</span>           <span class="c">F#m</span>   <span class="c">Abm</span> <span class="c">A</span>  <span class="c">Bm</span></span>
-      <span>Belini kavrasam yeter</span>
-      <span></span>
-      <span><span class="c">D</span>      <span class="c">Db</span>          <span class="c">F#m</span>           <span class="c">Bm</span>                 <span class="c">D</span>           </span>
-      <span>Hadi gel buluşalım eski köprünün altında</span>
-      <span>         <span class="c">Db</span>             <span class="c">F#m</span>   <span class="c">Abm</span> <span class="c">A</span>  <span class="c">Bm</span></span>
-      <span>Kimseler görmesin</span>
-      <span><span class="c">D</span>       <span class="c">Db</span>                   <span class="c">F#m</span>           <span class="c">Bm</span>                  <span class="c">D</span>           </span>
-      <span>Mehtaba karşı uzanalım eski köprünün altında</span>
-      <span>          <span class="c">Db</span>                 <span class="c">F#m</span>   <span class="c">Abm</span> <span class="c">A</span>  <span class="c">Bm</span></span>
-      <span>Kimseler bilmesin</span>
-      <span>          <span class="c">Ab</span>             <span class="c">Db</span>      <span class="c">Bm</span></span>
-      <span>Kimseler duymasın</span></pre>)
-  },
-  {
-    "id": 17,
-    "artist": "Duman",
-    "title": "Bu Akşam",
-    "chordsHTML": (<pre data-key="Bm" class="chords" id="key"><span>İntro:</span>
-      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>   <span class="c">A</span></span>
-      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">G</span>   <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">Bm</span>    </span>
-      <span></span>
-      <span><span class="c">Bm</span>           <span class="c">G</span>            <span class="c">A</span>        <span class="c">Em</span></span>
-      <span>Kendime geldim geleli dostlar</span>
-      <span><span class="c">Bm</span>            <span class="c">G</span>             <span class="c">A</span></span>
-      <span>Olamam kimseye düşman</span>
-      <span><span class="c">Bm</span>                 <span class="c">G</span>     <span class="c">A</span>            <span class="c">Em</span></span>
-      <span>Hiç şüphem yok kefenim sağlam</span>
-      <span><span class="c">G</span>           <span class="c">A</span>    <span class="c">Bm</span></span>
-      <span>İçerim ben bu akşam</span>
-      <span></span>
-      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>   <span class="c">A</span></span>
-      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">G</span>   <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">Bm</span>    </span>
-      <span></span>
-      <span><span class="c">Bm</span>        <span class="c">G</span>            <span class="c">A</span>          <span class="c">Em</span> </span>
-      <span>Sesleri duydum duyalı dostlar</span>
-      <span><span class="c">Bm</span>   <span class="c">G</span>          <span class="c">A</span></span>
-      <span>Yola çıktım yeni baştan</span>
-      <span><span class="c">Bm</span>        <span class="c">G</span>      <span class="c">A</span>             <span class="c">Em</span></span>
-      <span>Acelem yok hedefim sağlam     </span>
-      <span><span class="c">G</span>           <span class="c">A</span>     <span class="c">Bm</span></span>
-      <span>İçerim ben bu akşam</span>
-      <span><span class="c">G</span>           <span class="c">A</span>    <span class="c">Bm</span></span>
-      <span>İçerim ben bu akşam</span>
-      <span><span class="c">G</span>             <span class="c">A</span></span>
-      <span>İçerim ben</span>
-      <span></span>
-      <span>                     <span class="c">Bm</span>    <span class="c">G</span>  <span class="c">Em</span></span>
-      <span>Ben burda bu akşam   </span>
-      <span><span class="c">F#</span>               <span class="c">Bm</span>    <span class="c">G</span>  <span class="c">Em</span></span>
-      <span>Ben burda bu akşam</span>
-      <span><span class="c">F#</span>                 <span class="c">Bm</span>    <span class="c">G</span>  <span class="c">Em</span></span>
-      <span>Ben burda bu akşam</span>
-      <span><span class="c">F#</span>               <span class="c">G</span>        <span class="c">A</span>    </span>
-      <span>Ben burda bu akşam, içerim ben    </span>
-      <span></span>
-      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>   <span class="c">A</span></span>
-      <span><span class="c">Bm</span>  <span class="c">G</span>  <span class="c">A</span>  <span class="c">Em</span>  <span class="c">G</span>   <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">Bm</span>    </span>
-      <span></span>
-      <span><span class="c">Bm</span>       <span class="c">G</span>             <span class="c">A</span>      <span class="c">Em</span></span>
-      <span>Sizleri gördüm göreli dostlar</span>
-      <span><span class="c">Bm</span>          <span class="c">G</span>           <span class="c">A</span></span>
-      <span>Hemen hergün bana bayram</span>
-      <span><span class="c">Bm</span>         <span class="c">G</span>     <span class="c">A</span>             <span class="c">Em</span></span>
-      <span>Yarınım yok sevenim sağlam</span>
-      <span><span class="c">G</span>           <span class="c">A</span>     <span class="c">Bm</span></span>
-      <span>İçerim ben bu akşam</span>
-      <span><span class="c">G</span>           <span class="c">A</span>    <span class="c">Bm</span></span>
-      <span>İçerim ben bu akşam</span>
-      <span><span class="c">G</span>             <span class="c">A</span></span>
-      <span>İçerim ben</span>
-      <span></span>
-      <span>N</span></pre>)
-  },
-  {
-    "id": 18,
-    "artist": "MFÖ",
-    "title": "Ele Güne Karşı",
-    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span></span>
-      <span>Arayıp sormasan da unuttum seni sanma</span>
-      <span><span className="c">Am</span>                      <span className="c">Em</span></span>
-      <span>Dünya bir yana sen bir yana</span>
-      <span><span className="c">G</span>                                       <span className="c">Am</span></span>
-      <span>Aşık ettin beni kendine sonra da terkettin gizlice</span>
-      <span><span className="c">D</span>                                      <span className="c">B</span></span>
-      <span>Aradım seni her yerde hiç kimselere soramadım    </span>
-      <span></span>
-      <span><span className="c">Em</span></span>
-      <span>Bekledim dön diye dönmedin bile bile</span>
-      <span><span className="c">Am</span>                           <span className="c">Em</span></span>
-      <span>Bile bile sevdiğimi korkundan gelmedin</span>
-      <span><span className="c">G</span>                                   <span className="c">Am</span></span>
-      <span>Arayıp sormasan da unuttum seni sanma sakın</span>
-      <span><span className="c">D</span>                          <span className="c">B</span></span>
-      <span>Dünya bir yana sen bir yana</span>
-      <span></span>
-      <span><span className="c">C</span>                        <span className="c">D</span>                 <span className="c">Am</span>                   <span className="c">Em</span></span>
-      <span>Ele güne karşı yapayalnız böyle de olmaz ki</span>
-      <span><span className="c">C</span>                       <span className="c">D</span>              <span className="c">Am</span>                    <span className="c">Em</span></span>
-      <span>Nasıl da gittin insafsız böyle bırakılmaz ki</span>
-      <span><span className="c">Am</span>                              <span className="c">Em</span>            <span className="c">Am</span>                    <span className="c">B</span></span>
-      <span>Unuturum sanmıştın güzelim, gözüm yollarda kaldı</span>
-      <span></span>
-      <span><span className="c">Em</span></span>
-      <span>Haberin gelir bana duyarım nasıl olsa</span>
-      <span><span className="c">Am</span>                            <span className="c">Em</span></span>
-      <span>Bilirim kimlerlesin ne yaptın neler ettin</span>
-      <span><span className="c">G</span>                                       <span className="c">Am</span></span>
-      <span>Aklım fikrim hep sende sevsen de sevmesen de</span>
-      <span><span className="c">D</span>                                    <span className="c">B</span></span>
-      <span>Seni hiç aldatmadım aldatmayı hiç sevmem</span></pre>)
-  },
-  {
-    "id": 19,
-    "artist": "Cem Karaca",
-    "title": "Resimdeki Gözyaşları",
-    "chordsHTML": (
-      <pre data-key="Am" class="chords" id="key"><span><span class="c">Am</span></span>
-        <span>Birgün belki hayattan</span>
-        <span>                              <span class="c">Dm</span></span>
-        <span>Geçmişteki günlerden</span>
-        <span>                         <span class="c">B</span>   </span>
-        <span>Bir teselli ararsın</span>
-        <span>                                  <span class="c">E</span></span>
-        <span>Bak o zaman resmime</span>
-        <span>                         <span class="c">Am</span>    <span class="c">Dm</span>   <span class="c">Am</span>   <span class="c">Dm</span></span>
-        <span>Gör akan o yaşları                   </span>
-        <span></span>
-        <span><span class="c">Am</span></span>
-        <span>Benden sana son kalan</span>
-        <span>                                <span class="c">Dm</span>                  </span>
-        <span>Bir küçük resim şimdi</span>
-        <span>                                <span class="c">B</span>   </span>
-        <span>Cevap veremez ama</span>
-        <span>                          <span class="c">E</span></span>
-        <span>Ağlar yalnızlığına    </span>
-        <span></span>
-        <span><span class="c">Dm</span>        <span class="c">Am</span></span>
-        <span>Ve işte arta kalan</span>
-        <span><span class="c">E</span>                       <span class="c">Am</span>  </span>
-        <span>Bir avuç anı şimdi </span>
-        <span><span class="c">Dm</span>                      <span class="c">Am</span>         </span>
-        <span>Koyup da bir başına</span>
-        <span><span class="c">E</span>                            <span class="c">Am</span></span>
-        <span>Birakip gittin sen beni    </span>
-        <span></span>
-        <span><span class="c">Am</span></span>
-        <span>Birgün belki hayattan</span>
-        <span>                              <span class="c">Dm</span></span>
-        <span>Geçmişteki günlerden</span>
-        <span>                         <span class="c">B</span>   </span>
-        <span>Bir teselli ararsın</span>
-        <span>                                  <span class="c">E</span></span>
-        <span>Bak o zaman resmime</span>
-        <span></span>
-        <span><span class="c">Dm</span>                   <span class="c">Am</span></span>
-        <span>Sen yalnız değilsin</span>
-        <span><span class="c">E</span>                      <span class="c">Am</span>  </span>
-        <span>Biliyorum, nerdesin</span>
-        <span><span class="c">Dm</span>             <span class="c">Am</span></span>
-        <span>Bu üzerdi beni</span>
-        <span><span class="c">E</span>                                <span class="c">Am</span>      </span>
-        <span>Yaşasaydım ve görseydim</span></pre>
-    )
-  },
-  {
-    "id": 20,
-    "artist": "Cem Karaca",
-    "title": "Kerkük Zindanı",
-    "chordsHTML": (
-      <pre data-key="Am" className="chords" id="key"><span><span className="c">Em</span>                                                 <span className="c">F</span>  <span className="c">Em</span> <span className="c">Dm</span> <span className="c">F</span>  <span className="c">Em</span></span>
-        <span>Kerküğün zindanına attılar beni </span>
-        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
-        <span>Kerküğün zindanına attılar beni </span>
-        <span><span className="c">Am</span>                               <span className="c">G</span>           <span className="c">Em</span>    <span className="c">G</span>     <span className="c">F7</span>   <span className="c">Em</span></span>
-        <span>Mazlumlar sürüsüne kattılar beni, kattılar beni</span>
-        <span></span>
-        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
-        <span>Bir yanım dağladılar ateşle annem </span>
-        <span><span className="c">Am</span>                                    <span className="c">G</span>           <span className="c">Em</span>    <span className="c">G</span>     <span className="c">F7</span>   <span className="c">Em</span></span>
-        <span>Ne suçum ne günahım yaktılar beni, yaktılar beni</span>
-        <span></span>
-        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
-        <span>Türkmen obalarından göçen anneler </span>
-        <span><span className="c">Am</span>                            <span className="c">G</span>        <span className="c">Em</span>          <span className="c">G</span>        <span className="c">F7</span>   <span className="c">Em</span></span>
-        <span>Ne yuvaları kalmış ne de haneler, ne de haneler</span>
-        <span></span>
-        <span><span className="c">Em</span>                               <span className="c">Dm</span>  <span className="c">Cm</span>   <span className="c">G</span>                 </span>
-        <span>Gök kubbeyi sarsar mazlum feryadım </span>
-        <span><span className="c">Am</span>                               <span className="c">G</span>      <span className="c">Em</span>          <span className="c">G</span>        <span className="c">F7</span>   <span className="c">Em</span></span>
-        <span>Elbette bir gün güler bize seneler, bize de seneler</span></pre>
-    )
-  },
-  {
-    "id": 21,
-    "artist": "Piiz",
-    "title": "Vazgeç Gönül",
-    "chordsHTML": (<pre data-key="F#m" className="chords" id="key"><span>Intro:</span>
-      <span><span className="c">F#m</span>   <span className="c">E</span>    <span className="c">D</span>    <span className="c">Bm</span>    <span className="c">F#m</span>   <span className="c">G#</span>    <span className="c">D</span>    <span className="c">G#</span>   <span className="c">F#m</span>   <span className="c">Bm</span>   <span className="c">C#</span></span>
-      <span></span>
-      <span><span className="c">F#m</span>             <span className="c">E</span>     </span>
-      <span>Neyleyim doğan günü</span>
-      <span><span className="c">D</span>                      <span className="c">Bm</span>   <span className="c">C#</span></span>
-      <span>Neyleyim sensiz günü</span>
-      <span><span className="c">F#m</span>          <span className="c">E</span>              <span className="c">D</span>                     <span className="c">Bm</span>     <span className="c">C#</span></span>
-      <span>Geceler çoğalırken aydınlık kar getirmezki </span>
-      <span><span className="c">F#m</span>     <span className="c">E</span></span>
-      <span>Sevda bahçesinde </span>
-      <span><span className="c">D</span>                    <span className="c">Bm</span>        <span className="c">C#</span></span>
-      <span>Kurutulmuş bir gül idim</span>
-      <span><span className="c">F#m</span>            <span className="c">E</span>                     <span className="c">Bm</span>       <span className="c">C#</span>     <span className="c">F#m</span>       </span>
-      <span>Beni sakla bir ömür sev diye diye ölendim</span>
-      <span></span>
-      <span>               <span className="c">F#m</span></span>
-      <span>Vazgeç gönül </span>
-      <span>                     <span className="c">E</span> <span className="c">Bm</span>  <span className="c">F#m</span></span>
-      <span>Vazgeç sesini duyan yok </span>
-      <span><span className="c">E</span>                 <span className="c">Bm</span>       <span className="c">E</span></span>
-      <span>Bir yağmurun içinde</span>
-      <span>              <span className="c">A</span>             <span className="c">D</span></span>
-      <span>Ateş böceği misali</span>
-      <span>         <span className="c">A</span>      <span className="c">Bm</span>     <span className="c">C#</span></span>
-      <span>Bir yanıp bir söndün</span>
-      <span></span>
-      <span>                <span className="c">F#m</span></span>
-      <span>Vazgeç gönül </span>
-      <span>                     <span className="c">E</span> <span className="c">Bm</span>  <span className="c">F#m</span></span>
-      <span>Vazgeç seni anlayan yok </span>
-      <span><span className="c">E</span>                 <span className="c">Bm</span>       <span className="c">E</span></span>
-      <span>Bir yağmurun içinde</span>
-      <span>              <span className="c">A</span>             <span className="c">D</span></span>
-      <span>Ateş böceği misali</span>
-      <span>         <span className="c">A</span>      <span className="c">Bm</span>     <span className="c">C#</span></span>
-      <span>Bir yanıp bir söndün</span></pre>)
-  },
-  {
-    "id": 22,
-    "artist": "Mor ve Ötesi",
-    "title": "Sevda Çiçeği",
-    "chordsHTML": (<pre data-key="D" className="chords" id="key"><span><span className="c">E5</span>           <span className="c">A#5</span>        <span className="c">B5</span>              <span className="c">E5</span>     </span>
-      <span>Sessiz sedasız açardın gecelerde</span>
-      <span><span className="c">E5</span>            <span className="c">A#5</span>         <span className="c">B5</span>                   <span className="c">E5</span>       </span>
-      <span>Kimse bilemez, göremez kuytularda</span>
-      <span><span className="c">E5</span>                 <span className="c">G5</span>              <span className="c">A5</span>                  <span className="c">E5</span></span>
-      <span>Sonsuz ve dipsiz sevdalarda, duygularda</span>
-      <span><span className="c">E5</span>              <span className="c">F#</span>             <span className="c">G5</span>               <span className="c">E5</span></span>
-      <span>Sakin, kimsesiz ve sahipsiz uykularımda  </span>
-      <span></span>
-      <span><span className="c">E5</span>  <span className="c">F#5</span>  <span className="c">G5</span>  <span className="c">A5</span>         <span className="c">B5</span>               <span className="c">E5</span>                                          </span>
-      <span>Şimdi      artık   seni koklar yalnızlığım   </span>
-      <span><span className="c">E5</span>      <span className="c">B</span>     <span className="c">C#5</span>    <span className="c">G</span>        <span className="c">B5</span>              <span className="c">E5</span></span>
-      <span>Seni arar seni sorar sevda çiçeğim      x2</span></pre>)
-  },
-  {
-    "id": 23,
-    "artist": "Mor ve Ötesi",
-    "title": "Cambaz",
-    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>             <span className="c">Eb</span>                      <span className="c">D</span>                 <span className="c">Db</span>                      <span className="c">C</span>  <span className="c">G#</span></span>
-      <span>Ne habersin ne türksün, seni gören yollara dökülsün</span>
-      <span><span className="c">Em</span>            <span className="c">Eb</span>                 <span className="c">D</span>                <span className="c">Db</span>                     <span className="c">C</span>  <span className="c">G#</span></span>
-      <span>Kul oldun köle oldun, kurşun geçirmez cam oldun</span>
-      <span></span>
-      <span>                <span className="c">Am</span>                  <span className="c">D</span>                    <span className="c">G</span>                 <span className="c">C</span></span>
-      <span>Bütün dünya izler durur, afet-i azam bekler durur</span>
-      <span>             <span className="c">Am</span>                 <span className="c">B</span>               <span className="c">Em</span>  <span className="c">E</span></span>
-      <span>Hedefini al, piyasanı al, her şeyi al</span>
-      <span>                <span className="c">Am</span>              <span className="c">D</span>                       <span className="c">G</span>                     <span className="c">C</span></span>
-      <span>Yandı dertler bitti tasa, ben kurbanım bu cambaza</span>
-      <span>          <span className="c">Am</span>                       <span className="c">B</span>                <span className="c">Em</span></span>
-      <span>İki gözüm kadar eminim sen yoksun</span></pre>)
-  },
-  {
-    "id": 24,
-    "artist": "Mor ve Ötesi",
-    "title": "Deli",
-    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span>             <span className="c">Em</span>                <span className="c">F#</span> </span>
-      <span>Aranıyor sahibi ruhumun</span>
-      <span><span className="c">G</span>                          <span className="c">B</span></span>
-      <span>Tam yerine mi düştüm</span>
-      <span>          <span className="c">C</span>               <span className="c">B</span></span>
-      <span>Direniyor faili tutkunun</span>
-      <span><span className="c">C</span>                       <span className="c">F#</span></span>
-      <span>Kızmış ve küçülmüş         </span>
-      <span></span>
-      <span>             <span className="c">Em</span>                <span className="c">F#</span> </span>
-      <span>Aranıyor sahibi ruhumun</span>
-      <span><span className="c">G</span>                          <span className="c">B</span></span>
-      <span>Tam yerine mi düştüm</span>
-      <span>             <span className="c">C</span>             <span className="c">B</span>           <span className="c">C</span>    <span className="c">C#m</span> </span>
-      <span>Direniyor direniyor direniyor            </span>
-      <span></span>
-      <span><span className="c">B</span>                 <span className="c">Em</span>           <span className="c">Am</span></span>
-      <span>Beni büyütün, ağlatmayın</span>
-      <span>                  <span className="c">D</span>        <span className="c">C</span>         <span className="c">B</span></span>
-      <span>Sevginiz nerde övündüğünüz</span>
-      <span>                     <span className="c">Em</span>           <span className="c">Am</span></span>
-      <span>Beni büyütün, ağlatmayın</span>
-      <span>                    <span className="c">D</span>     <span className="c">C</span>         <span className="c">Em</span> </span>
-      <span>Sahte düşlerle oyalamayın</span>
-      <span></span>
-      <span>N   </span>
-      <span></span>
-      <span><span className="c">Em</span>                      <span className="c">G</span>           <span className="c">A</span>     </span>
-      <span>Bir yarım akıllı bir yarım deli</span>
-      <span><span className="c">C</span>                                              <span className="c">B</span></span>
-      <span>Dört yanım akıllı bir yanım deli</span>
-      <span><span className="c">Em</span>                  <span className="c">G</span>            <span className="c">A</span></span>
-      <span>Herkes akıllı bir ben deli</span>
-      <span>                <span className="c">C</span>                       <span className="c">B</span></span>
-      <span>Bir ben deli bir ben deli</span></pre>)
-  },
-  {
-    "id": 25,
-    "artist": "Mor ve Ötesi",
-    "soloTab": "/tabs/aşk_içinde.png",
-    "title": "Aşk İçinde",
-    "chordsHTML": (<pre data-key="Bm" class="chords" id="key"><span><span class="c">Bm</span>         <span class="c">A</span>         <span class="c">G</span>          <span class="c">F#</span></span>
-      <span>Bugün varsın  yarın yoksun</span>
-      <span><span class="c">Bm</span>           <span class="c">A</span>       <span class="c">G</span>        <span class="c">F#</span></span>
-      <span>Kocaman bir  çığlık olsun</span>
-      <span><span class="c">Bm</span>           <span class="c">A</span>         <span class="c">G</span>      <span class="c">F#</span></span>
-      <span>Benim derdim senin olsun</span>
-      <span><span class="c">Bm</span>      <span class="c">A</span>        <span class="c">G</span>          <span class="c">F#</span></span>
-      <span>Bilen bilsin duyan duysun    </span>
-      <span></span>
-      <span><span class="c">G</span>        <span class="c">F#</span>       <span class="c">Bm</span>        <span class="c">G</span></span>
-      <span>Aşk içinde yalan içinde </span>
-      <span>               <span class="c">F#</span>       <span class="c">Bm</span>       </span>
-      <span>Tek bir ayna  binbir biçimde</span>
-      <span><span class="c">G</span>         <span class="c">F#</span>    <span class="c">Bm</span>              <span class="c">G</span></span>
-      <span>Aşk içinde yalan içinde</span>
-      <span>              <span class="c">F#</span>         <span class="c">Bm</span>        </span>
-      <span>Hepsi aynı hepsi içinde</span>
-      <span></span>
-      <span><span class="c">Bm</span>      <span class="c">A</span>         <span class="c">G</span>      <span class="c">F#</span></span>
-      <span>Belki varsın belki yoksun</span>
-      <span><span class="c">Bm</span>         <span class="c">A</span>     <span class="c">G</span>       <span class="c">F#</span></span>
-      <span>Bihabersin belki toksun</span>
-      <span><span class="c">Bm</span>          <span class="c">A</span>      <span class="c">G</span>     <span class="c">F#</span></span>
-      <span>Gelecekler yüzlerinde</span>
-      <span><span class="c">Bm</span>           <span class="c">A</span>      <span class="c">G</span>      <span class="c">F#</span></span>
-      <span>Cam gibi bir büyük öfke</span></pre>)
-  },
-  {
-    "id": 26,
-    "artist": "Barış Manço",
-    "title": "Gülpembe",
-    "soloTab": "/tabs/gülpembe.png",
-    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>                 <span className="c">Am</span></span>
-      <span>Sen gülünce güller açar Gülpembe</span>
-      <span><span className="c">Em</span>                                 <span className="c">D</span>             <span className="c">G</span>     <span className="c">F</span>        <span className="c">Em</span></span>
-      <span>Bülbüller seni söyler, biz dinlerdik Gülpembe</span>
-      <span>                      <span className="c">Am</span></span>
-      <span>Sen gelince bahar gelir Gülpembe</span>
-      <span><span className="c">Em</span>                              <span className="c">D</span>         <span className="c">G</span>    <span className="c">F</span>         <span className="c">Em</span></span>
-      <span>Dereler seni çaglar, sevinirdik Gülpembe</span>
-      <span></span>
-      <span><span className="c">D</span>                                     <span className="c">Em</span></span>
-      <span>Güz yağmurlarıyla, birgün göçtün gittin</span>
-      <span><span className="c">D</span>                                <span className="c">Em</span></span>
-      <span>İnanamadik Gülpembe</span>
-      <span><span className="c">D</span>                             <span className="c">Em</span></span>
-      <span>Bizim iller sessiz, bizim iller sensiz</span>
-      <span><span className="c">D</span>                          <span className="c">Em</span></span>
-      <span>Olamadı Gülpembe</span>
-      <span></span>
-      <span><span className="c">Em</span>                 <span className="c">Am</span></span>
-      <span>Dudağımda son bir türkü Gülpembe</span>
-      <span><span className="c">Em</span>                                 <span className="c">D</span>            <span className="c">G</span>     <span className="c">F</span>       <span className="c">Em</span></span>
-      <span>Hala hep seni söyler, seni çağırır Gülpembe</span>
-      <span></span>
-      <span>N</span>
-      <span></span>
-      <span><span className="c">Em</span>                 <span className="c">Am</span></span>
-      <span>Dudağımda son bir türkü Gülpembe</span>
-      <span><span className="c">Em</span>                                 <span className="c">D</span>            <span className="c">G</span>     <span className="c">F</span>       <span className="c">Em</span></span>
-      <span>Hala hep seni söyler, seni çağırır Gülpembe</span>
-      <span><span className="c">Em</span>                 <span className="c">Am</span></span>
-      <span>Gözlerimde son bir umut Gülpembe</span>
-      <span><span className="c">Em</span>                              <span className="c">D</span>            <span className="c">G</span>     <span className="c">F</span>       <span className="c">Em</span></span>
-      <span>Hala hep seni arar, seni bekler Gülpembe</span></pre>)
-  },
-  {
-    "id": 27,
-    "artist": "Barış Manço",
-    "title": "Kara Sevda",
-    "chordsHTML": (<pre data-key="C#m" className="chords" id="key"><span><span className="c">C#m</span></span>
-      <span>Nasıl anlatsam bilemiyorum içim içime sığmıyor</span>
-      <span><span className="c">F#m</span>                                                                  <span className="c">G#</span></span>
-      <span>O deli dolu neşe dolu kişi ben değilim sanki</span>
-      <span><span className="c">C#m</span></span>
-      <span>Dışarısı buz gibi lapa lapa kar var benim içim yanıyor</span>
-      <span><span className="c">F#m</span>                                                                       <span className="c">G#</span></span>
-      <span>Eksi kırk derece soğuk suda bile yüzerim inan ki</span>
-      <span></span>
-      <span><span className="c">C#m</span></span>
-      <span>Kara sevda kara sevda</span>
-      <span><span className="c">B</span>                                <span className="c">C#m</span></span>
-      <span>Dedikleri daha ne olabilir ki</span>
-      <span><span className="c">C#m</span></span>
-      <span>Kara sevda kara sevda</span>
-      <span><span className="c">B</span>                                <span className="c">C#m</span></span>
-      <span>Seni benden kim ayırabilir ki</span>
-      <span></span>
-      <span><span className="c">F#m</span>                    <span className="c">C#m</span>                    <span className="c">G#</span>                    <span className="c">C#m</span>           </span>
-      <span>Çocukça bir aşk deyip de geçme sakın gülme halime</span>
-      <span><span className="c">F#m</span>                      <span className="c">C#m</span>                          <span className="c">G#</span>                     <span className="c">C#m</span></span>
-      <span>Nasıl olduğunu anlayamadım ama, seviyorum seni delicesine</span>
-      <span></span>
-      <span><span className="c">C#m</span></span>
-      <span>Nasıl anlatsan bilemiyorum gözlerim kararıyor</span>
-      <span><span className="c">F#m</span>                                                      <span className="c">G#</span></span>
-      <span>Tepe taklak oldu dünya tersine sanki</span>
-      <span><span className="c">C#m</span></span>
-      <span>Bütün aşıklar el ele kol kola cıvıl cıvıl geziyor</span>
-      <span><span className="c">F#m</span>                                                                             <span className="c">G#</span></span>
-      <span>Bense nuhun gemisinde tek başına gibiyim inan ki</span></pre>)
-  },
-  {
-    "id": 28,
+    "id": 34,
     "artist": "Grup 84",
     "title": "Kara Gözlüm",
-    "chordsHTML": (<pre data-key="Am" class="chords" id="key"><span>       <span class="c">Am</span>                                  <span class="c">G</span></span>
+    "chordsHTML": (<pre data-key="Am" className="chords" id="key"><span>       <span className="c">Am</span>                                  <span className="c">G</span></span>
       <span>Kara gözlüm beni niye terkettin</span>
-      <span>       <span class="c">Am</span>                                             <span class="c">G</span></span>
+      <span>       <span className="c">Am</span>                                             <span className="c">G</span></span>
       <span>Sevdiğim mi yetmedi yoksa söylemedin</span>
-      <span>       <span class="c">Am</span>                                                    <span class="c">G</span></span>
+      <span>       <span className="c">Am</span>                                                    <span className="c">G</span></span>
       <span>Bir kerecik olsun asma ne olur o gül yüzünü</span>
-      <span>             <span class="c">F</span>            <span class="c">G</span>    <span class="c">Am</span>             <span class="c">F</span>       <span class="c">G</span>         <span class="c">Am</span></span>
+      <span>             <span className="c">F</span>            <span className="c">G</span>    <span className="c">Am</span>             <span className="c">F</span>       <span className="c">G</span>         <span className="c">Am</span></span>
       <span>Sitem etme, söyletme, sitem etme, söyletme</span>
       <span></span>
-      <span><span class="c">Am</span>                                             <span class="c">G</span></span>
+      <span><span className="c">Am</span>                                             <span className="c">G</span></span>
       <span>Kaç gece ağladım sesimi duy diye</span>
-      <span>            <span class="c">Am</span>                                             <span class="c">G</span></span>
+      <span>            <span className="c">Am</span>                                             <span className="c">G</span></span>
       <span>Gözlerimden akan yaşlar, sen silesin diye</span>
-      <span>              <span class="c">Am</span>                                                  <span class="c">G</span></span>
+      <span>              <span className="c">Am</span>                                                  <span className="c">G</span></span>
       <span>Bu yürek dayanır mı sandın bu kadar acıya</span>
-      <span>               <span class="c">F</span>           <span class="c">G</span>               <span class="c">Am</span>             </span>
+      <span>               <span className="c">F</span>           <span className="c">G</span>               <span className="c">Am</span>             </span>
       <span>Ne olur elleme, şu yalan gönlüme</span>
-      <span>               <span class="c">F</span>            <span class="c">G</span>               <span class="c">Am</span>             </span>
+      <span>               <span className="c">F</span>            <span className="c">G</span>               <span className="c">Am</span>             </span>
       <span>Ne olur gülme, şu garip halime</span>
       <span></span>
-      <span><span class="c">Am</span>                                                <span class="c">G</span></span>
+      <span><span className="c">Am</span>                                                <span className="c">G</span></span>
       <span>Yoksa burdan başka yalan bir diyarda</span>
-      <span><span class="c">Dm</span>                                         <span class="c">Am</span>                        </span>
+      <span><span className="c">Dm</span>                                         <span className="c">Am</span>                        </span>
       <span>Sevdiğin mi var da beni oyalarsın</span>
-      <span><span class="c">C</span>                                                             <span class="c">G</span></span>
+      <span><span className="c">C</span>                                                             <span className="c">G</span></span>
       <span>Kurbanın olam, dökülmesin dudaklarından</span>
-      <span>                  <span class="c">F</span>            <span class="c">G</span>            <span class="c">Am</span> </span>
+      <span>                  <span className="c">F</span>            <span className="c">G</span>            <span className="c">Am</span> </span>
       <span>Ne olur söyleme, sakın söyleme</span>
       <span>(Ne olur söyleme, beni öldürme)</span></pre>)
   },
   {
-    "id": 29,
-    "artist": "Kurban",
-    "title": "Sarı Çizmeli Mehmet Ağa",
-    "chordsHTML": (
-      <pre data-key="Am" className="chords" id="key"><span><span className="c">Em</span></span>
-        <span>Yaz dostum, güzel sevmeyene adam denir mi</span>
-        <span><span className="c">Em</span></span>
-        <span>Yaz dostum, selam almayana yiğit denir mi</span>
-        <span><span className="c">Am</span>                  <span className="c">Em</span>         <span className="c">F</span>              <span className="c">G</span>         <span className="c">Em</span></span>
-        <span>Yaz dostum, altı üstü beş metrelik bez için</span>
-        <span><span className="c">Am</span>                   <span className="c">Em</span>                <span className="c">F</span>           <span className="c">G</span>              <span className="c">Em</span></span>
-        <span>Yaz dostum, boşa geçmiş ömre yaşam denir mi</span>
-        <span> </span>
-        <span><span className="c">Em</span></span>
-        <span>Yaz tahtaya bir daha, tut defteri kitabı</span>
-        <span><span className="c">Am</span>                                         <span className="c">Em</span>    </span>
-        <span>Sarı çizmeli Mehmet Ağa, bir gün öder hesabı</span>
-        <span> </span>
-        <span><span className="c">Em</span></span>
-        <span>Yaz dostum, yoksul görsen besle kaymak bal ile</span>
-        <span><span className="c">Em</span></span>
-        <span>Yaz dostum, garipleri giydir ipek şal ile</span>
-        <span><span className="c">Am</span>                  <span className="c">Em</span>                    <span className="c">F</span>             <span className="c">G</span>       <span className="c">Em</span></span>
-        <span>Yaz dostum, öksüz görsen sar kanadı kolunu</span>
-        <span><span className="c">Am</span>                <span className="c">Em</span>                       <span className="c">F</span>             <span className="c">G</span>           <span className="c">Em</span></span>
-        <span>Yaz dostum, kimse göçmez bu dünyadan mal ile</span>
-        <span> </span>
-        <span>N</span>
-        <span> </span>
-        <span><span className="c">Em</span></span>
-        <span>Yaz dostum Barış söyler kendi bir ders alır mı</span>
-        <span><span className="c">Em</span></span>
-        <span>Yaz dostum su üstüne yazı yazsan kalır mı</span>
-        <span><span className="c">Am</span>                <span className="c">Em</span>                     <span className="c">F</span>    <span className="c">G</span>             <span className="c">Em</span></span>
-        <span>Yaz dostum bir dünya ki haklı haksız karışmış</span>
-        <span><span className="c">Am</span>                  <span className="c">Em</span>                <span className="c">F</span>              <span className="c">G</span>             <span className="c">Em</span></span>
-        <span>Yaz dostum boşa koysan dolmaz dolusu alır mı</span>
-        <span> </span>
-        <span>N</span></pre>
-    )
-  },
-  {
-    "id": 30,
-    "artist": "Barış Akarsu",
-    "title": "Bir Kasaba Akşamı",
-    "chordsHTML": (
-      <pre data-key="Em" className="chords" id="key"><span>Intro:</span>
-        <span><span className="c">Am</span>   <span className="c">G</span>    <span className="c">F</span>    <span className="c">E</span></span>
-        <span></span>
-        <span><span className="c">Am</span>                                <span className="c">G</span>             <span className="c">E</span></span>
-        <span>Akşamları oturup ağlamaklı ve yalnız</span>
-        <span><span className="c">F</span>                                       <span className="c">G</span>                <span className="c">E</span></span>
-        <span>Kucağımda fotoğraflar fakülte yılları</span>
-        <span><span className="c">Am</span>                                      <span className="c">G</span>                  <span className="c">E</span></span>
-        <span>Seksenlerde İstanbul da hüzün grupları</span>
-        <span><span className="c">F</span>                                               <span className="c">G</span>                <span className="c">E</span></span>
-        <span>Duygu yüklü sevgililer kaçamak öpücükler</span>
-        <span></span>
-        <span><span className="c">Am</span>           <span className="c">G</span>                    <span className="c">F</span>                 <span className="c">E</span></span>
-        <span>Yirmi yaşın yüreğinde kaybettiği düşleri</span>
-        <span><span className="c">Am</span>                        <span className="c">G</span>              <span className="c">F</span>                 <span className="c">E</span></span>
-        <span>Caddeler boyunca gezdiği heyecan dolu günleri</span>
-        <span><span className="c">Am</span>             <span className="c">G</span>                      <span className="c">F</span>                    <span className="c">E</span></span>
-        <span>Toplanıp konuşurlardı yaşama dair geceleri</span>
-        <span><span className="c">Am</span>                  <span className="c">G</span>                   <span className="c">F</span>                    <span className="c">E</span></span>
-        <span>Gözyaşları süzülüyor düşündükçe hepsini</span>
-        <span></span>
-        <span><span className="c">Am</span>                                          <span className="c">G</span>                 <span className="c">E</span></span>
-        <span>Ana caddede kasabanın eczanesinde şimdi </span>
-        <span><span className="c">Am</span>                                       <span className="c">G</span>                 <span className="c">E</span></span>
-        <span>Saatlerce uzaklarda metropol hayatından</span>
-        <span><span className="c">Am</span>                                        <span className="c">G</span>                 <span className="c">E</span></span>
-        <span>Gündüzleri kar hesabı sevişmenin özlemi</span>
-        <span><span className="c">Am</span>                                     <span className="c">G</span>              <span className="c">E</span></span>
-        <span>Çocukluktu gözlerine adanan şiirleri</span>
-        <span></span>
-        <span><span className="c">Am</span>           <span className="c">G</span>                    <span className="c">F</span>                 <span className="c">E</span></span>
-        <span>Yirmi yaşın yüreğinde kaybettiği düşleri</span>
-        <span><span className="c">Am</span>                        <span className="c">G</span>              <span className="c">F</span>                 <span className="c">E</span></span>
-        <span>Caddeler boyunca gezdiği heyecan dolu günleri</span>
-        <span><span className="c">Am</span>             <span className="c">G</span>                      <span className="c">F</span>                    <span className="c">E</span></span>
-        <span>Toplanıp konuşurlardı yaşama dair geceleri</span>
-        <span><span className="c">Am</span>                  <span className="c">G</span>                   <span className="c">F</span>                    <span className="c">E</span></span>
-        <span>Gözyaşları süzülüyor düşündükçe hepsini</span></pre>
-    )
-  },
-  {
-    "id": 31,
-    "artist": "Barış Akarsu",
-    "title": "Yaz Demedim",
-    "chordsHTML": (<pre data-key="Em" className="chords" id="key"><span><span className="c">Em</span>      <span className="c">C</span>           <span className="c">B7</span>            <span className="c">Em</span>   <span className="c">C</span>  <span className="c">B7</span></span>
-      <span>Yeter bu defa bu iş bitiyor </span>
-      <span><span className="c">Em</span>              <span className="c">C</span>      <span className="c">B7</span>           <span className="c">Em</span>   <span className="c">C</span>  <span className="c">B7</span></span>
-      <span>Bana ettiklerin ağır geliyor </span>
-      <span><span className="c">Em</span>              <span className="c">C</span>   <span className="c">B7</span>             <span className="c">Em</span>  <span className="c">C</span> <span className="c">B7</span></span>
-      <span>Yetti bu sefer bu iş bitiyor </span>
-      <span><span className="c">Em</span>                    <span className="c">C</span>    <span className="c">B7</span>                <span className="c">Em</span>  <span className="c">C</span> <span className="c">B7</span></span>
-      <span>Aşk dediğin tuzak canımı yakıyor </span>
-      <span></span>
-      <span><span className="c">G</span>             <span className="c">Am</span>                      <span className="c">D</span></span>
-      <span>Sevmek nedir hiç bilmedin </span>
-      <span><span className="c">D</span>                   <span className="c">G</span>                  <span className="c">Em</span></span>
-      <span>Sevene de kıymet vermedin </span>
-      <span><span className="c">Em</span>         <span className="c">Am</span>                    <span className="c">D</span></span>
-      <span>Aşkı bize reva görmedin </span>
-      <span><span className="c">D</span>                                  <span className="c">B7</span></span>
-      <span>Sensin benim felaketim ooo</span>
-      <span></span>
-      <span><span className="c">Em</span>               <span className="c">C</span>   <span className="c">B7</span>             <span className="c">Em</span></span>
-      <span>Yaz demedim kış demedim </span>
-      <span><span className="c">Em</span>         <span className="c">C</span>   <span className="c">B7</span>          <span className="c">Em</span></span>
-      <span>Sen istedin ben geldim </span>
-      <span><span className="c">Em</span>            <span className="c">C</span>          <span className="c">B7</span>      <span className="c">Em</span></span>
-      <span>Nedir bu senden çektiğim </span>
-      <span><span className="c">Em</span>        <span className="c">C</span>       <span className="c">B7</span>         <span className="c">Em</span></span>
-      <span>Böyle ihanet görmedim</span></pre>)
-  },
-  {
-    "id": 32,
-    "artist": "Barış Akarsu",
-    "title": "Hasretler Ayrılıkla Başlar",
-    "chordsHTML": (<pre data-key="Am" class="chords" id="key"><span><span class="c">Am</span>              <span class="c">E</span>          <span class="c">Am</span> </span>
-      <span>Hasretler ayrılıkla başlar </span>
-      <span><span class="c">Am</span>                   <span class="c">E</span>           <span class="c">C</span> </span>
-      <span>Yanar yürek sessizce ağlar </span>
-      <span><span class="c">Dm</span>                   <span class="c">Am</span> </span>
-      <span>Bütün anılar canlanıverir </span>
-      <span><span class="c">E</span>                                   <span class="c">Am</span> </span>
-      <span>Sanki hiç bitmemişler gibi </span>
-      <span><span class="c">Dm</span>                     <span class="c">Am</span> </span>
-      <span>Yolu gözlenen giden sevgili </span>
-      <span><span class="c">E</span>                            <span class="c">Am</span> </span>
-      <span>Geri dönecekmiş gibi </span>
-      <span>  </span>
-      <span><span class="c">Dm</span> </span>
-      <span>İçin için har gibi </span>
-      <span><span class="c">Am</span> </span>
-      <span>Kaplar bütün benliğini </span>
-      <span><span class="c">E</span>                                             <span class="c">C</span>      <span class="c">A</span> </span>
-      <span>Bir garip olursun bunun ardından </span>
-      <span><span class="c">Dm</span> </span>
-      <span>Bazı bir rüzgar gibi </span>
-      <span><span class="c">Am</span> </span>
-      <span>Eser ayrılık yeli </span>
-      <span><span class="c">E</span>                            <span class="c">C</span>       <span class="c">E</span>     <span class="c">Am</span> </span>
-      <span>Giden sevgilinin ardından </span>
-      <span>  </span>
-      <span><span class="c">Am</span>                           <span class="c">Dm</span> </span>
-      <span>Önceleri sessizdir ayrılanlar </span>
-      <span><span class="c">E</span>                                     <span class="c">Am</span> </span>
-      <span>Mutluluğu başka yerde ararlar </span>
-      <span>                                      <span class="c">E</span> </span>
-      <span>Oysa geçen günlere yakınırlar </span>
-      <span></span>
-      <span>                                <span class="c">Am</span> </span>
-      <span>Ayrılıktır bu çeken anlar</span>
-      <span></span>
-      <span>Nakarat</span></pre>)
-  },
-  {
-    "id": 33,
-    "artist": "Barış Akarsu",
-    "title": "Islak Islak",
-    "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span>Solo: </span>
-      <span><span className="c">Bm</span>  <span className="c">A</span>  <span className="c">G</span>      <span className="c">G</span>  <span className="c">A</span>   <span className="c">Bm</span></span>
-      <span></span>
-      <span><span className="c">Bm</span>                                      <span className="c">D</span>  <span className="c">A</span>   <span className="c">Bm</span></span>
-      <span>Gecenin nemimi düşmüş gözlerine</span>
-      <span><span className="c">Bm</span>                               <span className="c">A</span>      <span className="c">Bm</span>  </span>
-      <span>Ne olur ıslak ıslak bakma öyle</span>
-      <span></span>
-      <span><span className="c">Bm</span>                    <span className="c">A</span>        <span className="c">Em</span>     <span className="c">D</span>              </span>
-      <span>Saçını dök sineme derdini söyle</span>
-      <span><span className="c">G</span>               <span className="c">A</span>                <span className="c">G</span>  <span className="c">A</span>   <span className="c">Bm</span></span>
-      <span>Yeterki ıslak ıslak   bakma  öyle</span>
-      <span></span>
-      <span><span className="c">Bm</span>         <span className="c">A</span>                <span className="c">G</span>     <span className="c">D</span>                          </span>
-      <span>Sürerim buluttan  tarlaları</span>
-      <span><span className="c">Em</span>                 <span className="c">D</span>                <span className="c">A</span>       <span className="c">Bm</span></span>
-      <span>Yağmurlar ekerim   göğün göğsüne</span>
-      <span><span className="c">Bm</span>                  <span className="c">A</span>          <span className="c">G</span>       <span className="c">D</span>                          </span>
-      <span>Güneşte demlerim senin çayını  </span>
-      <span><span className="c">Em</span>                   <span className="c">D</span>       <span className="c">A</span>    <span className="c">Bm</span> </span>
-      <span>Yüreğimden süzer öyle veririm </span>
-      <span></span>
-      <span><span className="c">Bm</span>                       <span className="c">G</span>          <span className="c">D</span>        <span className="c">Em</span></span>
-      <span>Ben feleğin şu çarkına çomak sokarım</span>
-      <span><span className="c">Bm</span>                <span className="c">G</span>              <span className="c">D</span>        <span className="c">Em</span></span>
-      <span>Ben feleğin tekerine   çomak sokarım   </span>
-      <span> </span>
-      <span><span className="c">Bm</span>              <span className="c">A</span>            <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span> </span>
-      <span>Yeterki ıslak ıslak  bakma öyle</span>
-      <span><span className="c">Bm</span>              <span className="c">A</span>            <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span> </span>
-      <span>Ne olur ıslak ıslak bakma öyle</span>
-      <span></span>
-      <span><span className="c">Bm</span>            <span className="c">A</span>            <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span> </span>
-      <span>Yeterki ıslak ıslak  bakma öyle</span>
-      <span><span className="c">G</span>               <span className="c">A</span>         <span className="c">G</span>     <span className="c">A</span>      <span className="c">Bm</span></span>
-      <span>Ne olur ıslak ıslak bakma öyle</span></pre>)
-  },
-  {
-    "id": 34,
+    "id": 35,
     "artist": "Pentegram",
     "title": "Bir",
     "chordsHTML": (<pre data-key="Dm" className="chords" id="key"><span><span className="c">Dm</span>          </span>
@@ -1440,7 +1518,7 @@ export const songs = [
       <span>Hepsi bir hepsi haktan</span></pre>)
   },
   {
-    "id": 35,
+    "id": 36,
     "artist": "Yavuz Çetin",
     "title": "Yaşamak İstemem",
     "chordsHTML": (<pre data-key="E" className="chords " id="key"><span><span className="c">D</span>                        <span className="c">A</span></span>
@@ -1514,32 +1592,32 @@ export const songs = [
       <span><span className="c">Em</span></span>
       <span>Yaşamak istemem, istemem, istemez (istemez)</span></pre>)
   },
-  {
-    "id": 36,
-    "artist": "Murat Göğebakan",
-    "title": "Vurgunum",
-    "chordsHTML": (<pre data-key="Bm" class="chords" id="key"><span>x2</span>
-      <span><span class="c">Bm</span>  <span class="c">F#m</span>  <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">A</span>  <span class="c">Bm</span>  <span class="c">F#m</span>  <span class="c">Bm</span></span>
-      <span><span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">A</span>  <span class="c">F#m</span>  <span class="c">Bm</span></span>
-      <span><span class="c">Em</span>  <span class="c">Bm</span>  <span class="c">A</span>  <span class="c">F#m</span>  <span class="c">Bm</span></span>
-      <span></span>
-      <span><span class="c">Bm</span>                                            <span class="c">Em</span></span>
-      <span>Ben gönlümün ayak bağını, senin kapına astım da geldim </span>
-      <span><span class="c">Bm</span>                                           <span class="c">Em</span>                                                       <span class="c">Bm</span></span>
-      <span>Ben gönlümün gözyaşlarını, senin yollarına döktüm de geldim </span>
-      <span><span class="c">Bm</span>                                  <span class="c">Em</span>                                            <span class="c">Bm</span></span>
-      <span>Ben gönlümün ateşini, senin gözlerinden aldım da geldim</span>
-      <span></span>
-      <span>x2</span>
-      <span><span class="c">Em</span>               <span class="c">Bm</span></span>
-      <span>Vurgunum yorgunum </span>
-      <span><span class="c">A</span>         <span class="c">F#m</span>     <span class="c">Bm</span></span>
-      <span>Senin yoluna ölürüm ben </span>
-      <span><span class="c">Em</span>               <span class="c">Bm</span></span>
-      <span>Vurgunum yorgunum </span>
-      <span><span class="c">A</span>         <span class="c">F#m</span>     <span class="c">Bm</span></span>
-      <span>Senin yoluna ölürüm</span></pre>)
-  },
+  // {
+  //   "id": 36,
+  //   "artist": "Murat Göğebakan",
+  //   "title": "Vurgunum",
+  //   "chordsHTML": (<pre data-key="Bm" className="chords" id="key"><span>x2</span>
+  //     <span><span className="c">Bm</span>  <span className="c">F#m</span>  <span className="c">A</span>  <span className="c">Bm</span>  <span className="c">A</span>  <span className="c">Bm</span>  <span className="c">F#m</span>  <span className="c">Bm</span></span>
+  //     <span><span className="c">Em</span>  <span className="c">Bm</span>  <span className="c">A</span>  <span className="c">F#m</span>  <span className="c">Bm</span></span>
+  //     <span><span className="c">Em</span>  <span className="c">Bm</span>  <span className="c">A</span>  <span className="c">F#m</span>  <span className="c">Bm</span></span>
+  //     <span></span>
+  //     <span><span className="c">Bm</span>                                            <span className="c">Em</span></span>
+  //     <span>Ben gönlümün ayak bağını, senin kapına astım da geldim </span>
+  //     <span><span className="c">Bm</span>                                           <span className="c">Em</span>                                                       <span className="c">Bm</span></span>
+  //     <span>Ben gönlümün gözyaşlarını, senin yollarına döktüm de geldim </span>
+  //     <span><span className="c">Bm</span>                                  <span className="c">Em</span>                                            <span className="c">Bm</span></span>
+  //     <span>Ben gönlümün ateşini, senin gözlerinden aldım da geldim</span>
+  //     <span></span>
+  //     <span>x2</span>
+  //     <span><span className="c">Em</span>               <span className="c">Bm</span></span>
+  //     <span>Vurgunum yorgunum </span>
+  //     <span><span className="c">A</span>         <span className="c">F#m</span>     <span className="c">Bm</span></span>
+  //     <span>Senin yoluna ölürüm ben </span>
+  //     <span><span className="c">Em</span>               <span className="c">Bm</span></span>
+  //     <span>Vurgunum yorgunum </span>
+  //     <span><span className="c">A</span>         <span className="c">F#m</span>     <span className="c">Bm</span></span>
+  //     <span>Senin yoluna ölürüm</span></pre>)
+  // },
   {
     "id": 37,
     "artist": "Pink Floyd",
