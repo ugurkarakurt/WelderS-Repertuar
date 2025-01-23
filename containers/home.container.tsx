@@ -171,13 +171,13 @@ const HomeContainer = () => {
         >
           <h3>Şarkı Listesi</h3>
           <ul>
-            {songs.map((song) => (
+            {songs.map((song, index) => (
               <li
                 key={song.id}
                 className={activeSection === song.id.toString() ? styles.active : ''}
                 onClick={() => scrollToSection(song.id.toString())}
               >
-                {song.title}
+                {index + 1}. {song.title}
               </li>
             ))}
           </ul>
@@ -187,7 +187,7 @@ const HomeContainer = () => {
       <div className={styles.scrollButton}>
         {showGoToTop && (
           <button onClick={scrollToTop}>
-            <Image src={ArrowUpwardIcon} width={55} height={55} alt="yukarı_çık_icon" />
+            <Image src={ArrowUpwardIcon} width={50} height={50} alt="yukarı_çık_icon" />
           </button>
         )}
         <button onClick={increaseScrollSpeed}>
