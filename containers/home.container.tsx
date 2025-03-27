@@ -13,6 +13,7 @@ import MenuIcon from "@/public/menu.png";
 import ExpandIcon from "@/public/expand.png";
 import ArrowIcon from "@/public/arrows.png";
 import MetronomeComponent from "@/components/metronome/metronome.component";
+import { useTheme } from "@/contexts/theme-context";
 
 const HomeContainer = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -24,6 +25,8 @@ const HomeContainer = () => {
   const [areAllSectionsExpanded, setAreAllSectionsExpanded] = useState(true);
   const [scrollSpeedDisplay, setScrollSpeedDisplay] =
     useState<string>("Normal");
+
+  const { theme } = useTheme();
 
   const scrollInterval = useRef<NodeJS.Timeout | null>(null);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -47,10 +50,16 @@ const HomeContainer = () => {
   const scrollToSection = (songId: string) => {
     const element = document.getElementById(`song-${songId}`);
     if (element) {
-      // Elementin ekranın en üstüne yapışması için
-      element.scrollIntoView({
+      // Header yüksekliğini hesaba katarak scroll pozisyonunu ayarla
+      const headerHeight =
+        document.querySelector(`.${styles.homeHeader}`)?.clientHeight || 0;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.pageYOffset;
+
+      // Window.scrollTo ile header yüksekliğini hesaba katarak scroll yapma
+      window.scrollTo({
+        top: elementPosition - headerHeight, // 20px ekstra boşluk
         behavior: "smooth",
-        block: "start",
       });
 
       setActiveSection(songId);
@@ -64,21 +73,6 @@ const HomeContainer = () => {
         setShowGoToTop(true);
       } else {
         setShowGoToTop(false);
-      }
-
-      const sections = songs.map((song) =>
-        document.getElementById(`song-${song.id}`)
-      );
-      const currentSection = sections.find((section) => {
-        if (section) {
-          const rect = section.getBoundingClientRect();
-          return rect.top >= 0 && rect.top <= window.innerHeight / 2;
-        }
-        return false;
-      });
-
-      if (currentSection) {
-        setActiveSection(currentSection.id.replace("song-", ""));
       }
     };
 
@@ -140,7 +134,11 @@ const HomeContainer = () => {
 
   return (
     <div className={styles.homeContainer}>
-      <header className={styles.homeHeader}>
+      <header
+        className={`${styles.homeHeader} ${
+          theme === "dark" ? styles.dark : ""
+        }`}
+      >
         <div className={styles.headerContent}>
           <button
             className={styles.hamburgerButton}
@@ -153,7 +151,9 @@ const HomeContainer = () => {
           <h2>Şarkı Listesi</h2>
 
           <button
-            className={styles.expandAllButton}
+            className={`${styles.expandAllButton} ${
+              theme === "dark" ? styles.dark : ""
+            }`}
             onClick={toggleAllSections}
             aria-label={
               areAllSectionsExpanded
@@ -190,9 +190,10 @@ const HomeContainer = () => {
       <div className={styles.sectionsContainer}>
         <div className={styles.songsContainer}>
           {filteredSongs.length > 0 ? (
-            filteredSongs.map((song) => (
+            filteredSongs.map((song, index) => (
               <Section
                 key={song.id}
+                index={index + 1}
                 song={song}
                 id={`song-${song.id}`}
                 isActive={activeSection === song.id.toString()}
@@ -209,7 +210,9 @@ const HomeContainer = () => {
 
         <div
           ref={menuRef}
-          className={`${styles.stickyMenu} ${showMenu ? styles.open : ""}`}
+          className={`${styles.stickyMenu} ${showMenu ? styles.open : ""} ${
+            theme === "dark" ? styles.dark : ""
+          }`}
         >
           <h3>Şarkı Listesi</h3>
           <ul>
@@ -232,7 +235,9 @@ const HomeContainer = () => {
         {showGoToTop && (
           <button
             onClick={scrollToTop}
-            className={styles.topButton}
+            className={`${styles.topButton} ${
+              theme === "dark" ? styles.dark : ""
+            }`}
             aria-label="Sayfanın başına çık"
           >
             <Image
@@ -244,7 +249,11 @@ const HomeContainer = () => {
           </button>
         )}
 
-        <div className={styles.autoScrollControls}>
+        <div
+          className={`${styles.autoScrollControls} ${
+            theme === "dark" ? styles.dark : ""
+          }`}
+        >
           <button
             onClick={increaseScrollSpeed}
             disabled={!isAutoScrolling}
@@ -279,10 +288,9 @@ const HomeContainer = () => {
         </div>
       </div>
 
-      <MetronomeComponent />
+      {/* <MetronomeComponent /> */}
     </div>
   );
 };
-
 
 export default HomeContainer;

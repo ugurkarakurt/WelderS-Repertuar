@@ -1,5 +1,4 @@
 .sectionContainer {
-  padding: 20px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -43,38 +42,33 @@
     }
 
     .detailsButton {
+      position: relative;
       display: flex;
       align-items: center;
-      gap: 5px;
-      padding: 6px 12px;
+      justify-content: center;
+      width: 40px;
+      height: 30px;
       border-radius: 4px;
       background-color: var(--bg-secondary);
-      transition: all 0.2s ease;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
 
       &:hover {
-        background-color: var(--button-hover);
-        transform: translateY(-2px);
-      }
-
-      span {
-        font-size: 14px;
-
-        @media (max-width: 767px) {
-          display: none;
-        }
+        transform: scale(1.1);
       }
 
       img {
-        @media (max-width: 767px) {
-          margin: 0;
-        }
+        width: 20px;
+        height: 20px;
+        color: var(--text-primary);
       }
     }
   }
 
-  &:not(:last-child) {
-    border-bottom: 1px solid var(--border-color);
-  }
+  // &:not(:last-child) {
+  //   border-bottom: 1px solid var(--border-color);
+  // }
 
   .songWrapper {
     display: flex;
@@ -91,11 +85,24 @@
   }
 
   &.active {
-    transform: translateY(-5px);
-
     .sectionHeader {
       h2 {
         color: var(--accent-color);
+      }
+    }
+  }
+
+  &.dark {
+    .songWrapper {
+      background-color: var(--bg-primary);
+    }
+    .sectionHeader {
+      img {
+        filter: invert(93%) sepia(94%) saturate(0%) hue-rotate(248deg)
+          brightness(106%) contrast(106%);
+      }
+      .detailsButton {
+        background-color: var(--bg-primary);
       }
     }
   }

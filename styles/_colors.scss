@@ -31,37 +31,60 @@
 
 /* Dark tema */
 [data-theme="dark"] {
-  --bg-primary: #121212;
-  --bg-secondary: #1e1e1e;
-  --text-primary: #f5f5f5;
-  --text-secondary: #aaaaaa;
-  --accent-color: #ff4a4a;
-  --border-color: #333333;
-  --card-bg: #1e1e1e;
-  --card-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.5);
+  /* Ana arka plan ve bileşen renkleri */
+  --bg-primary: #181818; /* Daha yumuşak bir siyah ton */
+  --bg-secondary: #232323; /* Biraz daha koyu, uyumlu */
+  --text-primary: #e0e0e0; /* Beyazdan daha yumuşak gri */
+  --text-secondary: #b0b0b0; /* Daha yumuşak gri */
+
+  /* Vurgu ve UI elementleri */
+  --accent-color: #ff4a4a; /* Kırmızı vurgular iyi, biraz daha açık */
+  --border-color: #444444; /* Daha koyu border */
+  --card-bg: #232323; /* Card arka planını koyulaştırıyoruz */
+  --card-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.5); /* Shadow iyileştirilmiş */
   --chord-color: #ff6b6b;
-  --header-bg: #1a1a1a;
-  --input-bg: #2a2a2a;
+
+  /* Header ve form elementleri */
+  --header-bg: #181818; /* Primary ile aynı ton */
+  --input-bg: #232323; /* Secondary ile uyumlu */
   --button-hover: rgba(255, 255, 255, 0.1);
-  --scroll-track: #333333;
-  --scroll-thumb: #555555;
+
+  /* Kaydırma çubuğu */
+  --scroll-track: #232323; /* Secondary ile uyumlu */
+  --scroll-thumb: #444444; /* Border-color ile uyumlu */
 
   /* Mevcut renklerin dark mode versiyonları */
-  --white: #f5f5f5;
-  --black: #121212;
-  --jet: #333333;
+  --white: #e0e0e0; /* Beyazdan biraz daha yumuşak */
+  --black: #181818; /* Dark mode için daha yumuşak siyah */
+  --jet: #333333; /* Jet rengini koyulaştırıyoruz */
   --silver: #888888;
   --timber-wolf: #555555;
 }
 
 /* Tema geçiş animasyonu */
+/* Metin rengi için daha özel seçiciler kullanarak */
 body,
 main,
 header,
 section,
 div,
 input,
-button {
-  transition: background-color 0.3s ease, color 0.3s ease,
-    border-color 0.3s ease, box-shadow 0.3s ease;
+button,
+a {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Sadece metin içeren elementler için color geçişini hızlandırma */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+li,
+label {
+  transition: color 0.05s ease !important;
 }

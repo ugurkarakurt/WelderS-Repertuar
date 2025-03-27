@@ -46,6 +46,9 @@ const SongDetailPage = () => {
   return (
     <div className={styles.songDetailContainer}>
       <div className={styles.songHeader}>
+        <h1>
+          {song.artist} - {song.title}
+        </h1>
         <button onClick={handleBack} className={styles.backButton}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,9 +66,6 @@ const SongDetailPage = () => {
           </svg>
           <span>Geri</span>
         </button>
-        <h1>
-          {song.artist} - {song.title}
-        </h1>
       </div>
 
       <div className={styles.controlsContainer}>
@@ -94,7 +94,7 @@ const SongDetailPage = () => {
         )}
       </div>
 
-      <MetronomeComponent />
+      {/* <MetronomeComponent /> */}
     </div>
   );
 };

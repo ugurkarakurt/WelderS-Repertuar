@@ -1,0 +1,71 @@
+.songDetailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+
+  .songHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
+    }
+
+    .backButton {
+      display: flex;
+      align-items: center;
+      align-self: flex-start;
+      gap: 5px;
+      border-radius: 5px;
+      padding: 8px 15px;
+      background-color: var(--bg-primary);
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+      color: var(--text-primary);
+
+      &:hover {
+        transform: translateX(-3px);
+        background-color: var(--button-hover);
+      }
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .controlsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .loading,
+  .notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 18px;
+    color: var(--text-secondary);
+  }
+
+  .notFound {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
