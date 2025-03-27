@@ -5,7 +5,6 @@ import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import { songs } from "@/data/songs";
 import styles from "./song-detail.module.scss";
-import BackIcon from "@/public/back.png";
 import MetronomeComponent from "@/components/metronome/metronome.component";
 import TransposeControl from "@/components/transpose/transpose-control.component";
 
@@ -48,7 +47,20 @@ const SongDetailPage = () => {
     <div className={styles.songDetailContainer}>
       <div className={styles.songHeader}>
         <button onClick={handleBack} className={styles.backButton}>
-          <Image src={BackIcon} width={20} height={20} alt="Geri" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
           <span>Geri</span>
         </button>
         <h1>
