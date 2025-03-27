@@ -1,10 +1,11 @@
-import React from 'react';
+"use client";
 
+import React from "react";
+import SongDetailPage from "./SongDetailPage"; // Burada doğrudan bileşeni içe aktarıyoruz
+
+// Next.js route sayfası
 const SongPage = () => {
-  return (
-    <div>ŞARKI LİTSE</div>
-  )
-}
-
+  return <SongDetailPage />;
+};
 
 export default SongPage;

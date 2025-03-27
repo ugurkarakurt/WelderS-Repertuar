@@ -1,11 +1,12 @@
 @import "./reset";
 @import "./animations";
 @import "./colors";
+/* Tema değişkenlerini ekle */
 
 * {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   scrollbar-width: thin;
-  scrollbar-color: var(--white) var(--silver);
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
   font-weight: 400;
 }
 
@@ -14,21 +15,18 @@
 }
 
 /* Track */
-
 ::-webkit-scrollbar-track {
-  background: var(--silver);
+  background: var(--scroll-track);
 }
 
 /* Handle */
-
 ::-webkit-scrollbar-thumb {
-  background: var(--white);
+  background: var(--scroll-thumb);
 }
 
 /* Handle on hover */
-
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--silver);
+  background: var(--accent-color);
 }
 
 body {
@@ -38,8 +36,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   padding-left: calc(100vw - 100%);
   padding-bottom: 300px;
   @media (max-width: 1200px) {
@@ -50,15 +48,278 @@ body {
 main {
   width: calc(100% - 50px);
   padding: 40px;
+  padding-top: 0;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
-  box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
+  background-color: var(--card-bg);
+  -webkit-box-shadow: var(--card-shadow);
+  -moz-box-shadow: var(--card-shadow);
+  box-shadow: var(--card-shadow);
   @media (max-width: 1200px) {
     width: 100%;
     overflow: hidden;
     padding: 20px;
     border-radius: 0;
+  }
+}
+
+pre.chords {
+  clear: both;
+  line-height: 19px;
+  font-family: unset;
+  font-weight: 600;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+span {
+  min-height: 18px;
+}
+
+span.c {
+  cursor: pointer;
+  color: var(--chord-color);
+  font-weight: 600;
+}
+
+/* Otomatik kaydırma ve şarkı listesi */
+.stickyMenu {
+  background-color: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  color: var(--text-primary);
+}
+
+.stickyMenu h3 {
+  color: var(--text-primary);
+  border-bottom-color: var(--border-color);
+}
+
+.stickyMenu li {
+  &:hover {
+    background-color: var(--button-hover);
+  }
+
+  &.active {
+    background-color: var(--accent-color);
+    color: white;
+  }
+}
+
+/* Şarkı arama */
+.searchInput {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+/* Şarkı kartları */
+.sectionContainer {
+  background-color: var(--card-bg);
+  border-bottom-color: var(--border-color);
+
+  h2 {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+}
+
+/* Tema geçiş butonu için stil */
+.themeToggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    color: var(--text-primary);
+  }
+}
+
+/* Diğer stil kuralları aynı kalabilir */
+.vote {
+  clear: both;
+  margin: 0 0 40px 20px;
+  font-weight: 600;
+}
+
+.vote-button {
+  margin: 0 15px 0 0;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.vote-button:hover {
+  border-radius: 3px;
+}
+
+.vote-button.true {
+  color: #58df92;
+  border: 1px solid #58df92;
+}
+
+.vote-button.false {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+/* Metronom için stiller */
+.metronome {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  background-color: var(--card-bg);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    right: 10px;
+    bottom: 80px;
+  }
+
+  &.collapsed {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+
+    .metronomeContent {
+      display: none;
+    }
+
+    .metronomeToggle {
+      margin: 0;
+    }
+  }
+
+  .metronomeToggle {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: var(--bg-secondary);
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      color: var(--text-primary);
+    }
+  }
+
+  .metronomeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .tempoControl {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      .tempoValue {
+        width: 40px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      button {
+        background-color: var(--bg-secondary);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+          background-color: var(--button-hover);
+        }
+
+        svg {
+          width: 16px;
+          height: 16px;
+          color: var(--text-primary);
+        }
+      }
+    }
+  }
+}
+
+/* Transpose için stiller */
+.transposeControl {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: var(--bg-secondary);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  button {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--button-hover);
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+      color: var(--text-primary);
+    }
+  }
+
+  .transposeValue {
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+  }
+
+  .resetButton {
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: var(--accent-color);
+    color: white;
+
+    &:hover {
+      opacity: 0.9;
+    }
   }
 }
 
@@ -78,7 +339,7 @@ span {
 
 span.c {
   cursor: pointer;
-  color: #ea494d;
+  color: var(--accent-color);
   font-weight: 600;
 }
 
@@ -104,8 +365,8 @@ span.c {
 }
 
 .vote-button.false {
-  color: #ea494d;
-  border: 1px solid #ea494d;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .tag {
@@ -182,10 +443,7 @@ span.c {
 }
 .tK8GG {
   font-size: 14px;
-  font-family:
-    Roboto Mono,
-    Courier New,
-    monospace;
+  font-family: Roboto Mono, Courier New, monospace;
   line-height: 1.4em;
   margin: 0;
 }
@@ -199,10 +457,7 @@ span.c {
   line-height: 1.2em;
 }
 .g1nC0 .tK8GG {
-  font:
-    15px Roboto Mono,
-    Courier New,
-    monospace;
+  font: 15px Roboto Mono, Courier New, monospace;
 }
 .kmZt1 .tK8GG {
   background: #f8f8f8;
@@ -330,4 +585,22 @@ _:future {
   .hci6W {
     display: block;
   }
+}
+
+
+.ultimate-chord {
+  clear: both;
+  line-height: 19px;
+  font-family: inherit !important;
+  font-weight: 600;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+ .fciXY._Oy28{
+  color: var(--accent-color);
+  &::after{
+    display: none;
+  }
+ }
 }

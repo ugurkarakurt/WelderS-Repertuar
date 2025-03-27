@@ -1,4 +1,23 @@
+/* Renk paletini güncelliyoruz - global.scss'e eklenecek */
+
 :root {
+  /* Light tema (varsayılan) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --text-primary: #111111;
+  --text-secondary: #333333;
+  --accent-color: #db1515;
+  --border-color: #eaeaea;
+  --card-bg: #ffffff;
+  --card-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
+  --chord-color: #ea494d;
+  --header-bg: #ffffff;
+  --input-bg: #ffffff;
+  --button-hover: rgba(0, 0, 0, 0.05);
+  --scroll-track: #dedede;
+  --scroll-thumb: #aaaaaa;
+
+  /* Mevcut renkler */
   --white: #ffffff;
   --black: #111111;
   --jet: #2b2a29;
@@ -8,4 +27,64 @@
   --harvest-gold: #c8923f;
   --silver: #bfbebe;
   --timber-wolf: #d5d5d2;
+}
+
+/* Dark tema */
+[data-theme="dark"] {
+  /* Ana arka plan ve bileşen renkleri */
+  --bg-primary: #181818; /* Daha yumuşak bir siyah ton */
+  --bg-secondary: #232323; /* Biraz daha koyu, uyumlu */
+  --text-primary: #e0e0e0; /* Beyazdan daha yumuşak gri */
+  --text-secondary: #b0b0b0; /* Daha yumuşak gri */
+
+  /* Vurgu ve UI elementleri */
+  --accent-color: #ff4a4a; /* Kırmızı vurgular iyi, biraz daha açık */
+  --border-color: #444444; /* Daha koyu border */
+  --card-bg: #232323; /* Card arka planını koyulaştırıyoruz */
+  --card-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.5); /* Shadow iyileştirilmiş */
+  --chord-color: #ff6b6b;
+
+  /* Header ve form elementleri */
+  --header-bg: #181818; /* Primary ile aynı ton */
+  --input-bg: #232323; /* Secondary ile uyumlu */
+  --button-hover: rgba(255, 255, 255, 0.1);
+
+  /* Kaydırma çubuğu */
+  --scroll-track: #232323; /* Secondary ile uyumlu */
+  --scroll-thumb: #444444; /* Border-color ile uyumlu */
+
+  /* Mevcut renklerin dark mode versiyonları */
+  --white: #e0e0e0; /* Beyazdan biraz daha yumuşak */
+  --black: #181818; /* Dark mode için daha yumuşak siyah */
+  --jet: #333333; /* Jet rengini koyulaştırıyoruz */
+  --silver: #888888;
+  --timber-wolf: #555555;
+}
+
+/* Tema geçiş animasyonu */
+/* Metin rengi için daha özel seçiciler kullanarak */
+body,
+main,
+header,
+section,
+div,
+input,
+button,
+a {
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Sadece metin içeren elementler için color geçişini hızlandırma */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+li,
+label {
+  transition: color 0.05s ease !important;
 }

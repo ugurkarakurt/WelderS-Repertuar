@@ -19,14 +19,6 @@ const Navbar: React.FC<LogoProps> = ({ fontFamily }) => {
       <Link href={"/"}>
         <h1 className={fontFamily.className}>WelderS Repertuar</h1>
       </Link>
-      {/* <ul className={fontFamily.className}>
-        <li className={`${pathname === '/costs' && styles.active}`}>
-          <NavbarItem route="/costs" content="Maliyetler" />
-        </li>
-        <li className={`${pathname === '/mockups' && styles.active}`}>
-          <NavbarItem route="/mockups" content="Mockups" />
-        </li>
-      </ul> */}
     </nav >
   )
 }
