@@ -1,4 +1,23 @@
+/* Renk paletini güncelliyoruz - global.scss'e eklenecek */
+
 :root {
+  /* Light tema (varsayılan) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --text-primary: #111111;
+  --text-secondary: #333333;
+  --accent-color: #db1515;
+  --border-color: #eaeaea;
+  --card-bg: #ffffff;
+  --card-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
+  --chord-color: #ea494d;
+  --header-bg: #ffffff;
+  --input-bg: #ffffff;
+  --button-hover: rgba(0, 0, 0, 0.05);
+  --scroll-track: #dedede;
+  --scroll-thumb: #aaaaaa;
+
+  /* Mevcut renkler */
   --white: #ffffff;
   --black: #111111;
   --jet: #2b2a29;
@@ -8,4 +27,41 @@
   --harvest-gold: #c8923f;
   --silver: #bfbebe;
   --timber-wolf: #d5d5d2;
+}
+
+/* Dark tema */
+[data-theme="dark"] {
+  --bg-primary: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-primary: #f5f5f5;
+  --text-secondary: #aaaaaa;
+  --accent-color: #ff4a4a;
+  --border-color: #333333;
+  --card-bg: #1e1e1e;
+  --card-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.5);
+  --chord-color: #ff6b6b;
+  --header-bg: #1a1a1a;
+  --input-bg: #2a2a2a;
+  --button-hover: rgba(255, 255, 255, 0.1);
+  --scroll-track: #333333;
+  --scroll-thumb: #555555;
+
+  /* Mevcut renklerin dark mode versiyonları */
+  --white: #f5f5f5;
+  --black: #121212;
+  --jet: #333333;
+  --silver: #888888;
+  --timber-wolf: #555555;
+}
+
+/* Tema geçiş animasyonu */
+body,
+main,
+header,
+section,
+div,
+input,
+button {
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
 }

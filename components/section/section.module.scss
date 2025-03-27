@@ -3,39 +3,100 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  h2 {
+  transition: all 0.3s ease;
+
+  .sectionHeader {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    @media (max-width: 1024px) {
-      font-size: 16px;
-      gap: 5px;
-    }
-    img {
-      margin-top: 4px;
-      transition: 0.2s ease-in-out;
-      &.active {
-        transform: rotate(-180deg);
+
+    h2 {
+      flex: 1;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: var(--accent-color);
       }
+
       @media (max-width: 1024px) {
-        width: 15px;
-        height: 15px;
-        margin-bottom: 2px;
+        font-size: 16px;
+        gap: 5px;
+      }
+
+      img {
+        margin-top: 4px;
+        transition: 0.2s ease-in-out;
+        &.active {
+          transform: rotate(-180deg);
+        }
+        @media (max-width: 1024px) {
+          width: 15px;
+          height: 15px;
+          margin-bottom: 2px;
+        }
+      }
+    }
+
+    .detailsButton {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 12px;
+      border-radius: 4px;
+      background-color: var(--bg-secondary);
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: var(--button-hover);
+        transform: translateY(-2px);
+      }
+
+      span {
+        font-size: 14px;
+
+        @media (max-width: 767px) {
+          display: none;
+        }
+      }
+
+      img {
+        @media (max-width: 767px) {
+          margin: 0;
+        }
       }
     }
   }
+
   &:not(:last-child) {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-color);
   }
+
   .songWrapper {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: var(--bg-secondary);
+    padding: 15px;
+    border-radius: 8px;
+
     img {
       width: 100%;
       height: auto;
+    }
+  }
+
+  &.active {
+    transform: translateY(-5px);
+
+    .sectionHeader {
+      h2 {
+        color: var(--accent-color);
+      }
     }
   }
 }

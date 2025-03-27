@@ -1,11 +1,12 @@
 @import "./reset";
 @import "./animations";
 @import "./colors";
+/* Tema değişkenlerini ekle */
 
 * {
   -ms-overflow-style: -ms-autohiding-scrollbar;
   scrollbar-width: thin;
-  scrollbar-color: var(--white) var(--silver);
+  scrollbar-color: var(--scroll-thumb) var(--scroll-track);
   font-weight: 400;
 }
 
@@ -14,21 +15,18 @@
 }
 
 /* Track */
-
 ::-webkit-scrollbar-track {
-  background: var(--silver);
+  background: var(--scroll-track);
 }
 
 /* Handle */
-
 ::-webkit-scrollbar-thumb {
-  background: var(--white);
+  background: var(--scroll-thumb);
 }
 
 /* Handle on hover */
-
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--silver);
+  background: var(--accent-color);
 }
 
 body {
@@ -38,8 +36,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   padding-left: calc(100vw - 100%);
   padding-bottom: 300px;
   @media (max-width: 1200px) {
@@ -51,9 +49,10 @@ main {
   width: calc(100% - 50px);
   padding: 40px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
-  box-shadow: 0 0 10px -1px rgba(50, 50, 50, 0.3);
+  background-color: var(--card-bg);
+  -webkit-box-shadow: var(--card-shadow);
+  -moz-box-shadow: var(--card-shadow);
+  box-shadow: var(--card-shadow);
   @media (max-width: 1200px) {
     width: 100%;
     overflow: hidden;
@@ -72,16 +71,84 @@ pre.chords {
   flex-direction: column;
   gap: 2px;
 }
+
 span {
   min-height: 18px;
 }
 
 span.c {
   cursor: pointer;
-  color: #ea494d;
+  color: var(--chord-color);
   font-weight: 600;
 }
 
+/* Otomatik kaydırma ve şarkı listesi */
+.stickyMenu {
+  background-color: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  color: var(--text-primary);
+}
+
+.stickyMenu h3 {
+  color: var(--text-primary);
+  border-bottom-color: var(--border-color);
+}
+
+.stickyMenu li {
+  &:hover {
+    background-color: var(--button-hover);
+  }
+
+  &.active {
+    background-color: var(--accent-color);
+    color: white;
+  }
+}
+
+/* Şarkı arama */
+.searchInput {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+/* Şarkı kartları */
+.sectionContainer {
+  background-color: var(--card-bg);
+  border-bottom-color: var(--border-color);
+
+  h2 {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+  }
+}
+
+/* Tema geçiş butonu için stil */
+.themeToggle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    color: var(--text-primary);
+  }
+}
+
+/* Diğer stil kuralları aynı kalabilir */
 .vote {
   clear: both;
   margin: 0 0 40px 20px;
@@ -108,11 +175,159 @@ span.c {
   border: 1px solid #ea494d;
 }
 
+/* Metronom için stiller */
+.metronome {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  background-color: var(--card-bg);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: var(--card-shadow);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    right: 10px;
+    bottom: 80px;
+  }
+
+  &.collapsed {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+
+    .metronomeContent {
+      display: none;
+    }
+
+    .metronomeToggle {
+      margin: 0;
+    }
+  }
+
+  .metronomeToggle {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: var(--bg-secondary);
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      color: var(--text-primary);
+    }
+  }
+
+  .metronomeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .tempoControl {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      .tempoValue {
+        width: 40px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      button {
+        background-color: var(--bg-secondary);
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+          background-color: var(--button-hover);
+        }
+
+        svg {
+          width: 16px;
+          height: 16px;
+          color: var(--text-primary);
+        }
+      }
+    }
+  }
+}
+
+/* Transpose için stiller */
+.transposeControl {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: var(--bg-secondary);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  button {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--button-hover);
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+      color: var(--text-primary);
+    }
+  }
+
+  .transposeValue {
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+  }
+
+  .resetButton {
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background-color: var(--accent-color);
+    color: white;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+/* Diğer stil öğeleri */
 .tag {
   clear: both;
   margin: 20px 20px 30px 20px;
   line-height: 25px;
-  color: #333;
+  color: var(--text-secondary);
 }
 
 .tag i {
@@ -121,7 +336,7 @@ span.c {
 }
 
 .tag a {
-  color: #333;
+  color: var(--text-secondary);
   text-decoration: underline;
 }
 
@@ -165,169 +380,4 @@ span.c {
   -webkit-column-span: all;
   -moz-column-span: all;
   column-span: all;
-}
-
-.OnD3d {
-  position: relative;
-}
-.yqhFQ {
-  display: block;
-}
-.mcbfs.OnD3d {
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-.TB7ul.OnD3d {
-  padding: 16px;
-}
-.tK8GG {
-  font-size: 14px;
-  font-family:
-    Roboto Mono,
-    Courier New,
-    monospace;
-  line-height: 1.4em;
-  margin: 0;
-}
-.Ty_RP.tK8GG {
-  line-height: 1.4em;
-}
-.l9wGO.tK8GG {
-  line-height: 1.3em;
-}
-.Ph1Np.tK8GG {
-  line-height: 1.2em;
-}
-.g1nC0 .tK8GG {
-  font:
-    15px Roboto Mono,
-    Courier New,
-    monospace;
-}
-.kmZt1 .tK8GG {
-  background: #f8f8f8;
-}
-.g1nC0.kmZt1 .tK8GG {
-  background: #fff;
-}
-.urTqW .tK8GG {
-  background: #111;
-}
-.ceYS9 {
-  display: none;
-}
-@media print {
-  .tK8GG {
-    background: #59a500;
-  }
-}
-.fsG7q {
-  display: block;
-}
-.hci6W {
-  background: #fff;
-  width: 100%;
-}
-.lG_ff {
-  display: table;
-  width: 100%;
-}
-.sq79z {
-  display: table-cell;
-  vertical-align: top;
-}
-.VVp2u .sq79z {
-  width: 50%;
-}
-.ahVT8,
-.y68er {
-  display: block;
-  min-height: 1.4em;
-}
-.Ty_RP .y68er {
-  min-height: 1.4em;
-}
-.l9wGO .y68er {
-  min-height: 1.3em;
-}
-.Ph1Np .y68er {
-  min-height: 1.2em;
-}
-.g1nC0 .y68er {
-  min-height: 0;
-  min-height: auto;
-}
-.ahVT8 .fciXY:hover {
-  cursor: default;
-}
-.ahVT8 .fciXY:hover:after {
-  display: none;
-}
-.visBT {
-  color: #0098fd;
-}
-.visBT span {
-  color: #0098fd !important;
-}
-.fciXY {
-  border-radius: 2px;
-  cursor: default;
-  display: inline-block;
-  font-weight: 700;
-  margin: -0.1em -0.5em -0.15em;
-  padding: 0.1em 0.5em 0.15em;
-  position: relative;
-}
-.fciXY:after {
-  background: currentColor;
-  border-radius: 2px;
-  bottom: 0.2em;
-  content: "";
-  display: none;
-  left: 0.25em;
-  opacity: 0.1;
-  position: absolute;
-  right: 0.25em;
-  top: 0.2em;
-}
-.g1nC0 .fciXY {
-  background: rgba(33, 150, 243, 0.15);
-  border-radius: 1px;
-  font-weight: 400;
-  margin: -0.1em calc(-0.3em + 0.5px);
-  padding: 0.1em 0.3em;
-}
-.isAndroid .fciXY {
-  background: rgba(15, 157, 88, 0.15);
-}
-.fciXY:hover:after {
-  display: block;
-}
-.LJhrL {
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-}
-.Fh96w:hover {
-  background: transparent;
-}
-.ahVT8 {
-  page-break-inside: avoid;
-}
-._Oy28 {
-  position: relative;
-}
-._Oy28:after {
-  display: block;
-}
-:root .hci6W,
-_::-webkit-full-page-media,
-_:future {
-  display: block;
-}
-@-moz-document url-prefix() {
-  .hci6W {
-    display: block;
-  }
 }
